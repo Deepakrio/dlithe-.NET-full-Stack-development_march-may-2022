@@ -47,8 +47,4 @@ p::first-line
         color:blue;
         background-color: white;
     }
-    h5::before
-    {
-        content: url("assets/logo.jpg");
-
-    }
+   
