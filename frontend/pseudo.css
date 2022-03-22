@@ -1,0 +1,26 @@
+p::first-letter
+    {
+        color: royalblue;
+        font-size: large;
+        font-weight: bold;
+    }   
+
+p::first-line
+    {
+        background-color:bisque;
+    }
+
+::marker
+    {
+        color:blueviolet;
+    }
+
+::selection
+    {
+        color:blue;
+        background-color: white;
+    }
+    h5::before
+    {
+        content: url("assets/logo.jpg");
+    }
