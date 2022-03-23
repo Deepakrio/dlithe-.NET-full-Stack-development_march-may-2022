@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+</head>
+<style>
+    body
+    {
+        background: #f12711;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    header
+        {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: rgb(48, 45, 3);
+            border-style: double;
+            border-width: 10px;
+            border-color: bisque blueviolet white;
+            border-radius: 50px;
+            text-shadow: 2px 5px 5px rgb(33, 33, 34);
+        }
+
+        .textdesign
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: darkred;
+        }
+
+        label
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: rgb(12, 12, 12); 
+        }
+
+</style>
+<body>
+    <center> <header>ORDER NOW</header></center>
+    <form method="post">
+        <fieldset>
+            <legend class="textdesign">Fill In The Order Details</legend>
+            <label>Name</label>
+            <input type="text" name="name"><br><br>
+            <label>Food Options</label>
+            <input type="radio" id="Food Options" name="Food Options" value="Veg">Veg
+            <input type="radio" id="Food Options" name="Food Options" value="Non-veg">Non-veg<br><br>
+            <label>serving size</label>
+            <input type="number" pattern="[0-9]{1}" required><br><br>
+            <h4>MENU</h4>
+            <input type="checkbox" id="Veg combo" name="Veg combo" value="Veg combo">
+            <label> Veg combo</label>
+            <input type="checkbox" id="NON-Veg combo" name="NON-Veg combo" value="NON-Veg combo">
+            <label> NON-Veg combo</label>
+            <input type="checkbox" id="Veg Biryani" name="Veg Biryani" value="Veg Biryani">
+            <label> Veg Biryani</label>
+            <input type="checkbox" id="Chicken Biryani" name="Chicken Biryani" value="Chicken Biryanii">
+            <label> Chicken Biryani</label><br>
+            <input type="checkbox" id="Chicken kabab" name="Chicken kabab" value="Chicken kabab">
+            <label> Chicken kabab</label>
+            <input type="checkbox" id="Gobi Manchurian" name="Gobi Manchurian" value="Gobi Manchurian">
+            <label> Gobi Manchurian</label>
+            <input type="checkbox" id="Desserts" name="Desserts" value="Desserts">
+            <label> Desserts</label>
+            
+            <br>
+            <label>Mobile Number</label><br>
+            <input type="tel" pattern="[0-9]{10}" required><br><br>
+            <label>Address</label><br>
+            <input type="Address" name="Address" required><br><br>
+            <input type ="submit" value="Order NOW"><br>
+            
+        </fieldset>
+    </form> 
+
+</body>
+</html>
