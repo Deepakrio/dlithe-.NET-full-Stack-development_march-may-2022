@@ -38,13 +38,23 @@
         {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 16px;
-            font-weight: bold;
+            font-weight:bold;
+            font-style: italic;
+            color: rgb(12, 12, 12); 
+        }
+        h4
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight:bold;
+            font-style: italic;
             color: rgb(12, 12, 12); 
         }
 
+
 </style>
 <body>
-    <center> <header>ORDER NOW</header></center>
+    <center> <header>ORDER NOW</header>
     <form method="post">
         <fieldset>
             <legend class="textdesign">Fill In The Order Details</legend>
@@ -53,7 +63,7 @@
             <label>Food Options</label>
             <input type="radio" id="Food Options" name="Food Options" value="Veg">Veg
             <input type="radio" id="Food Options" name="Food Options" value="Non-veg">Non-veg<br><br>
-            <label>serving size</label>
+            <label>Serving size</label>
             <input type="number" pattern="[0-9]{1}" required><br><br>
             <h4>MENU</h4>
             <input type="checkbox" id="Veg combo" name="Veg combo" value="Veg combo">
@@ -69,7 +79,7 @@
             <input type="checkbox" id="Gobi Manchurian" name="Gobi Manchurian" value="Gobi Manchurian">
             <label> Gobi Manchurian</label>
             <input type="checkbox" id="Desserts" name="Desserts" value="Desserts">
-            <label> Desserts</label>
+            <label> Desserts</label><br>
             
             <br>
             <label>Mobile Number</label><br>
@@ -80,6 +90,7 @@
             
         </fieldset>
     </form> 
-
+</center>
+<a href="E:\dlithe .NET full Stack development_march-may-2022\frontend\foodcart.html">HOME PAGE</a>
 </body>
 </html>
