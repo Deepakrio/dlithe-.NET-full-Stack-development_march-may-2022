@@ -43,8 +43,8 @@
         }
 
         div {
-             width: 1500px;
-             height: 1000px;
+            /* width: 1500px;
+             height: 400*/
              animation-name: ani;
              animation-iteration-count: infinite;
              animation-duration: 20s;
@@ -62,19 +62,70 @@
             position:absolute;
             left:0px; 
             width:400px;
+            height: 570px; ;
             transition: width 1s; 
             transition-timing-function: ease;
+            }
+
+            div.scale2 {
+            /* width: 1500px;
+             height: 1000px;*/
+             animation-name: ani2;
+             animation-iteration-count: infinite;
+             animation-duration: 20s;
+            }
+
+            .scale2
+            {
+            transform: scale();
+            position:relative;
+            left:0px; 
+            width:600px;
+            height: 500px;
+            transition: width 1s; 
+            transition-timing-function: ease;
+            }
+
+            @keyframes ani2
+             {
+             from {background-image: url(assets/circle1.gif) ;}
+             to {background-image: url(assets/cricle2.gif) ;}
             }
 
 
 </style>
 <body>
-  <center><header>HOLI : THE FESTIVAL OF COLORS</header></center>
+ <center><header>HOLI : THE FESTIVAL OF COLORS</header></center>
   <div class="scale" ><br><br>
     <h2>About Holi</h2>
-    <p>If you're wondering, "What is Holi?" you might find there isn't one straight answer to that question. Holi is a celebration of the end of winter and the beginning of spring. It's a celebration of rebirth and new beginnings, and a time to let the bad and the negative melt away. Holi is a Hindu festival that takes place every spring. It's all about new beginnings — Holi welcomes the spring season and celebrates the end of winter. The Holi festival always falls on Purnima, or the day of the full moon. It's a two-day holiday; the day of the March full moon is Holika Dahan. That's when a bonfire is lit for a puja (or prayer). The bonfire is cleansing and meant to burn away all the bad and evil. The next day, directly after the full moon, is all about the festival of colors.
+    <p>If you're wondering, "What is Holi?" you might find there isn't 
+        one straight answer to that question. Holi is a celebration of the end of winter and
+         the beginning of spring. It's a celebration of rebirth and new beginnings, and a time
+          to let the bad and the negative melt away. Holi is a Hindu festival that takes place
+           every spring. It's all about new beginnings — Holi welcomes the spring season and 
+           celebrates the end of winter.
+    </p>
+    <p>
+        The Holi festival always falls on Purnima, or the day
+        of the full moon. It's a two-day holiday; the day of the March full moon is Holika 
+        Dahan. That's when a bonfire is lit for a puja (or prayer). The bonfire is cleansing
+         and meant to burn away all the bad and evil. The next day, directly after the
+          full moon, is all about the festival of colors.
+    </p>
+    
+  <div class="scale2" ><br><br>
+    <h2>How We celebrate Holi:</h2>
 
+    <p>On the eve of the festival, large pyres are lit in many parts of India to signify the burning of evil spirits. People often throw wood, dried leaves and twigs into bonfires.
+        On the day of Holi, entire streets and towns turn red, green and yellow as people throw colored powder into the air and splash them on others. Each color carries a meaning. Red, for example, symbolizes love and fertility while green stands for new beginnings. People also splash water on each other in celebration. Water guns are used to squirt water, while balloons filled with colored water are also flung from rooftops. Later in the day, families gather together for festive meals. It is also common to distribute sweets among neighbors and friends.
+    </p>
+    <p>
+        Holi has become increasingly popular outside of India — in large part because of the millions of Indians and other South Asians living all over the world. As with Diwali, another Indian festival, communities with South Asian heritage living abroad often get together to celebrate Holi
     </p>
   </div>
+  </div>
+
+
+
 </body>
 </html>
