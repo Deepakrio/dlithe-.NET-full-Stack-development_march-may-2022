@@ -92,10 +92,38 @@
              to {background-image: url(assets/cricle2.gif) ;}
             }
 
+            div.move {
+               /*  width: 1000px;
+                 height: 800px;*/
+                 position: absolute;
+                animation-name: ani4;
+                animation-iteration-count: infinite;
+                animation-duration: 20s;
+                animation-direction: alternate;
+                }
+
+            .move
+            {
+            transform: scale();
+            position:absolute;
+            left:500px; 
+            width:500px;
+            height: 500px;
+            transition: width 1s; 
+            transition-timing-function: ease;
+            }
+
+            @keyframes ani4
+             {
+             from {background-image: url(assets/multicolorsplash.gif) ;}
+             to {background-image: url(assets/circle3.gif) ;}
+            }
+
 
 </style>
 <body>
  <center><header>HOLI : THE FESTIVAL OF COLORS</header></center>
+ <div class="move"></div>
   <div class="scale" ><br><br>
     <h2>About Holi</h2>
     <p>If you're wondering, "What is Holi?" you might find there isn't 
@@ -113,6 +141,8 @@
           full moon, is all about the festival of colors.
     </p>
     
+  
+
   <div class="scale2" ><br><br>
     <h2>How We celebrate Holi:</h2>
 
