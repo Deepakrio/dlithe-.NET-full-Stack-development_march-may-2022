@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Java Script</title>
+    <style>
+    body 
+    {
+        background: #EDE574;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+</style>
+    <script type="text/javascript" src="done.js"></script>
+    <script>
+        function welcome()
+        {
+            alert("You are now subscribed to our news letter");
+        }
+    </script>
+<style>
+    h1 
+        {
+            text-decoration: underline;
+        }
+</style>
+
+ 
+</head>
+<body>
+    <h1 >Subscribe to our News Letter</h1>
+    <input type="button" onclick="welcome()" value="Subscribe">
+    <hr>
+
+    <h1>Hotel Information</h1><br>
+    
+   
+    <script>
+        
+        var amnumber = 10;
+        var amstring = "FOOD CART"
+        var amfloat = 1000.0;
+        var amboolean = true;
+        var amarray = ["North Indian food","South Indian food","Desserts"];
+        var novalue; //undefined
+        var amnull=null; //NULL object
+
+        
+        document.write("Hotel Name =" +amstring+ "<br>");
+        document.write("Number of branches = " +amnumber+ "<br>");
+        document.write("Minimum order value =" +amfloat+ "<br>" );
+        document.write("Online orders accepted? =" +amboolean+ "<br>");
+        document.write("Foods offered =" +amarray+ "<br>");
+        document.write("No value " +novalue+ "<br>");
+        document.write("Null ="+amnull+ "<br>");
+
+        console.log("Number of branches "+amnumber);
+        console.log("Hotel Namt "+amstring);
+</script>
+
+<h1>Hotel Address</h1>
+<p id="details"></p>
+<hr>
+<br>
+<p id="std"></p>
+
+<script>
+        //Displaying using Element By id
+
+        var name = "Food Cart";
+        const Student=
+        {
+            stdname:"Bengaluru ",
+            Street:"jaynagar",
+            stdid:121,
+            stdclass:" 10th"
+        };
+
+        document.getElementById("details").innerHTML=name;
+
+        document.getElementById("std").innerHTML= "# "+Student.stdid+  " "+ Student.stdclass+ " Cross " +Student.Street+ " " + Student.stdname;
+
+   
+     
+</script> 
+<hr>
+<h1>Did you Enjoy your Food?</h1> <br>
+<input type="button" onclick="done()" value="yes">
+<input type="button" onclick="done()" value="No"><br><br>
+
+<a href="order.html">Back to Order Page</a>
+</body>
+</html>
