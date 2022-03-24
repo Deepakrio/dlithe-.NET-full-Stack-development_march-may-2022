@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>holi</title>
+</head>
+<style>
+    body
+    {
+        background: #232526;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    header
+        {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: rgb(248, 247, 233);
+            border-style: double;
+            border-width: 10px;
+            border-color: rgb(214, 156, 97);
+            text-shadow: 2px 5px 5px rgb(10, 114, 33);
+        }
+
+        p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(252, 252, 248);  
+        }
+        h2
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: underline;
+            color: rgb(252, 252, 249);  
+        }
+
+        div {
+             width: 1500px;
+             height: 1000px;
+             animation-name: ani;
+             animation-iteration-count: infinite;
+             animation-duration: 20s;
+            }
+
+            @keyframes ani
+             {
+             from {background-image: url(assets/circle1.gif) ;}
+             to {background-image: url(assets/cricle2.gif) ;}
+            }
+
+            .scale
+            {
+            transform: scale();
+            position:absolute;
+            left:0px; 
+            width:400px;
+            transition: width 1s; 
+            transition-timing-function: ease;
+            }
+
+
+</style>
+<body>
+  <center><header>HOLI : THE FESTIVAL OF COLORS</header></center>
+  <div class="scale" ><br><br>
+    <h2>About Holi</h2>
+    <p>If you're wondering, "What is Holi?" you might find there isn't one straight answer to that question. Holi is a celebration of the end of winter and the beginning of spring. It's a celebration of rebirth and new beginnings, and a time to let the bad and the negative melt away. Holi is a Hindu festival that takes place every spring. It's all about new beginnings — Holi welcomes the spring season and celebrates the end of winter. The Holi festival always falls on Purnima, or the day of the full moon. It's a two-day holiday; the day of the March full moon is Holika Dahan. That's when a bonfire is lit for a puja (or prayer). The bonfire is cleansing and meant to burn away all the bad and evil. The next day, directly after the full moon, is all about the festival of colors.
+
+    </p>
+  </div>
+</body>
+</html>
