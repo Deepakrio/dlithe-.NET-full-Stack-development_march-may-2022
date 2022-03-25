@@ -40,31 +40,36 @@
 </head>
 <body> 
   <center>  <p id = "psd"> </p>
-           <h2>Thank You</h2>
+           <h2 id="text">Thank You <br>
+            <script> 
+            /* Text Replace */ 
+              var msg = "Thank you";
+                 var msg2 = msg.replace("Thank you", "Welcome");
+            document.write(msg2);
+            </script>
+           </h2>
+       
 </center>
-
-</body>
-
 
 <script>
    
     var uname = "  Deepak  ";
-    var name = uname.trim();
+    var name = uname.trim(); // trim method 
     var mname = "cr";
     var lname= "RIO";
     var dob = "10-11-1997";
-    var concat = name+ " " +lname;
-    var slice = dob.slice(6,10);
-    var lower = lname.toLowerCase();
-    var upper = mname.toUpperCase();
-    var charat = lname.charAt(1);
-    var index = uname.indexOf("deepak");
-    var lindex = lname.lastIndexOf("RIO");
-    var split = concat.split();
+    var concat = name+ " " +lname; // String concatination
+    var slice = dob.slice(6,10);   //String Slice
+    var lower = lname.toLowerCase(); //Tolowercase method
+    var upper = mname.toUpperCase(); //Touppercase method
+    var charat = lname.charAt(1);       // Char at method which shows the character at the given index
+    var index = uname.indexOf("deepak"); // displays the index of string
+    var lindex = lname.lastIndexOf("RIO"); // displays the index of last occurance of a string
+    var split = concat.split("  ");            // splits the string by comma
 
     document.getElementById("psd").innerHTML = "Password for "+concat+ " is: <br>" + slice+ lower+upper + charat + index +lindex;
- 
-
-
+   
 </script>
+
+</body>
 </html>
