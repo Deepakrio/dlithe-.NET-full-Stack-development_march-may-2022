@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    
+    <style>
+        body
+        {
+            background: #C33764;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        p
+        {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: rgb(248, 247, 233);
+            border-style: double;
+            border-width: 10px;
+            border-color: rgb(214, 156, 97);
+            text-shadow: 2px 5px 5px rgb(10, 114, 33);
+        }
+
+        h2
+        {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: rgb(248, 247, 233);
+            text-shadow: 2px 5px 5px rgb(10, 114, 33);
+        }
+
+    </style>
+
+</head>
+<body> 
+  <center>  <p id = "psd"> </p>
+           <h2>Thank You</h2>
+</center>
+
+</body>
+
+
+<script>
+   
+    var uname = "  Deepak  ";
+    var name = uname.trim();
+    var mname = "cr";
+    var lname= "RIO";
+    var dob = "10-11-1997";
+    var concat = name+ " " +lname;
+    var slice = dob.slice(6,10);
+    var lower = lname.toLowerCase();
+    var upper = mname.toUpperCase();
+    var charat = lname.charAt(1);
+    var index = uname.indexOf("deepak");
+    var lindex = lname.lastIndexOf("RIO");
+    var split = concat.split();
+
+    document.getElementById("psd").innerHTML = "Password for "+concat+ " is: <br>" + slice+ lower+upper + charat + index +lindex;
+ 
+
+
+</script>
+</html>
