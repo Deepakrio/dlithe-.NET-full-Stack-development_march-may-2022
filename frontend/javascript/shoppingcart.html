@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+
+</head>
+<style>
+    body{
+        background: #D3CCE3;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       }
+
+        h2
+        {
+            font-size: 50px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: rgb(63, 60, 38);
+            border-style: double;
+            border-width: 10px;
+            border-color: rgb(53, 42, 30);
+            border-radius: 40px;
+            text-shadow: 2px 5px 5px rgb(75, 109, 75);
+        }
+        h3
+        {
+            font-size: 30px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: overline underline;
+            font-weight: bolder;
+            color: rgb(63, 60, 38);
+            text-shadow: 2px 5px 5px rgb(75, 109, 75);
+        }
+        h4,h5
+        {
+            /*font-size: 25px;*/
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:lighter;
+            color: black;
+        
+        }
+            
+        
+        p
+        {
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: rgb(88, 86, 51);
+            text-shadow: 2px 5px 5px rgb(95, 158, 109);
+        }
+
+</style>
+    
+   
+<body>
+    
+ <center>  <h2>SHOPPING CART</h2>
+    <h3>Get the best quality products from us</h3>
+    <p id="shop">Laptop mobile i-Pod Television Washing Machine Wireless Earphones</p><hr>
+    <h4 id="prev"></h4><hr>
+    <h4 id="current"></h4><hr>
+    <h4 id="coupon"></h4><br>
+    <pre id="couponmod" ></pre><hr>
+    <pre id="mod" ></pre><hr>
+    <pre id="msg" ></pre><hr>
+    <pre id="details" ></pre>
+    <h5 id="emi"></h5><hr>
+    <h5 id="list"></h5><hr>
+    <h5 id="Availableitems"></h5><hr>
+    <p id="sort"></p><hr></center> 
+
+</body>
+<script>
+    var items = ["Laptop","mobile","i-Pod","Television", "Washing Machine", "Wireless Earphones"];
+    document.getElementById("shop").innerHTML = items;
+
+   var del = items.pop();
+    document.getElementById("prev").innerHTML = "Your Previous Order was :" +del;
+
+    document.getElementById("current").innerHTML = "Your Current Order is :"+items;
+
+    
+    /*for(var num of items)
+            document.write(num);*/ 
+
+    var coupon =["and 10% Off on the purchase."];
+    coupon.unshift("15% off on Movie tickets");
+    document.getElementById("coupon").innerHTML="Your Coupons :" +coupon;
+
+    var couponmod = coupon.shift();
+    document.getElementById("couponmod").innerHTML="You removed the Coupon :" +couponmod+ 
+                                                    "and Your current coupon selected is "+ coupon;
+    
+    items.splice(2,1,'Wireless Earphones');
+    document.getElementById("mod").innerHTML= "You final cart items : " +items; 
+
+    var thanks = ["Earn" , "Shop"];
+    var thanks2 = ["Reffer", "Repeat"];
+    var merge = thanks.concat(thanks2);
+    document.getElementById("msg").innerHTML= merge;
+
+   
+
+
+    var offer = items.indexOf("Laptop");
+    offer=offer+1;
+    document.getElementById("emi").innerHTML = "You have EMI Option for order number :"+offer;
+    
+   var finalp = items.toString();
+
+   var cut = items.slice(0,4);
+   
+
+   document.getElementById("Availableitems").innerHTML= "Currently Available items  : " +cut;
+
+   var rating = [2,3,6,5,4,9,8,7,0,1];
+   var sorting = rating.sort();
+   document.getElementById("sort").innerHTML = "Rate Our Service  "+sorting;
+
+  
+
+  
+
+
+
+</script>
+</html>
