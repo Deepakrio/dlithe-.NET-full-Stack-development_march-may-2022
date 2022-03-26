@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-</head>
-<body>
+    <title>Sign up</title>
+
     <link rel="stylesheet" href="design.css">
 </head>
 <body>
         <div class="headtag">
         <header>Home Schools</header>
         </div>
-    <center><img id="headloc" src="assets/headtag.png">
-
-    <form>
+    <center><img id="headloc" src="assets/headtag.png"></center>
+   
+    <form method="post">
         <fieldset>
-            <legend>Login</legend>
-            <label>Name:</label>
-            <input type="text" name="Name">
-        </fieldset>
+        <legend>Log in</legend>
+        
+        <label>Name</label>
+        <input type="text" name="name"><br>
+        <label>Create Password</label>
+        <input type="text" name="Password" required><br>
+
+        <input type="submit" value="Login">
+
+    </fieldset>
+
     </form>
-    
+
+   
 </body>
 </html>
-
-
-
