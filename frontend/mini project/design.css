@@ -1,0 +1,95 @@
+body
+    {
+        background: #114357;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+header
+    {
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color: rgb(66, 66, 57);
+        text-shadow: 2px 5px 5px rgb(28, 138, 52);
+    }
+
+  /*  label
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight:bold;
+            font-style: italic;
+            color: rgb(15, 13, 13); *
+        }
+
+    legend
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight:bold;
+            font-style: italic;
+            color: rgb(12, 12, 12); 
+        }
+    section
+    {
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color:white;  
+    }
+
+    pre
+    {
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:white;  
+    }
+
+
+.headtag
+    {
+        width: 700px;
+        height: 300px;
+        left: 440px;
+        top: 40px;
+        position: absolute;
+    }
+.opttag
+    {
+        width: 1280px;
+        height: 50px;
+        position: sticky;
+    }
+    
+
+#headloc
+        {
+            left: 300px;
+        }
+        #headloc
+        {
+            width: 650px;
+        }
+        .logo
+        {
+            position: absolute;
+            top: 0px;
+
+        }
+
+        .signup
+        {
+            position: absolute;
+            top: 15px;
+            left: 1000px;
+
+        }
+
+        .login
+        {
+            position: absolute;
+            top: 180px;
+            left: 1100px;
+
+        }
