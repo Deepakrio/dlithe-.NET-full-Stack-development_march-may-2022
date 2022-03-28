@@ -76,17 +76,38 @@ function even()
                 }
         }
 
-// Method to find smallest of 3 number using nested if        
+// Method to find smallest of 3 number using nested if | if else | else if      
 
 function small()
         {
             var n1= prompt("Enter the first Number")
             var n2= prompt("Enter the first Number")
             var n3= prompt("Enter the first Number")
+            var result;
 
-            if(n1>n2)
+            if(n1<n2)
                 {
-                    if(n1>n3)
-                }
+                    if(n1<n3)
+                    {
+                    result=n1;
+                    }
+                else if(n2<n3)
+                    {
+                        result=n2;
+                    }
+                    else
+                    result=n3;
 
         }
+
+        document.write(result+ " is the smallest of Three numbers");
+    }
+
+//Square of two numbers
+
+    function sqr(num1)
+    {
+        
+        document.write("Square of "+num1+ " = " +num1*num1);
+    }
+

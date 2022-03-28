@@ -4,7 +4,6 @@ body
     {  background: #114357;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-       
     }
 
       
@@ -103,7 +102,7 @@ header
         .signup
         {
             position: absolute;
-            top: 15px;
+            top: 14px;
             left: 1000px;
 
         }
@@ -114,4 +113,38 @@ header
             top: 180px;
             left: 1100px;
 
+        }
+
+        .home input
+        {
+            background-color: orange;
+            border-radius: 10px;
+            border-color: transparent;
+        }
+
+        .home input:hover
+        {
+            background-color: blanchedalmond;
+        }
+
+        .log input
+        {
+            border-radius: 10px;
+            border-color: transparent;
+        }
+
+        .log input:hover
+        {
+            background-color: transparent;
+        }
+
+        .btn input
+        {
+            background-color: wheat;
+            border-color: transparent;
+        }
+
+        .log input:hover
+        {
+            background-color: blanchedalmond;
         }
