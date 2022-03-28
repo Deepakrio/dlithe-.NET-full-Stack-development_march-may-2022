@@ -81,8 +81,8 @@ function even()
 function small()
         {
             var n1= prompt("Enter the first Number")
-            var n2= prompt("Enter the first Number")
-            var n3= prompt("Enter the first Number")
+            var n2= prompt("Enter the Second Number")
+            var n3= prompt("Enter the Third Number")
             var result;
 
             if(n1<n2)
@@ -110,4 +110,33 @@ function small()
         
         document.write("Square of "+num1+ " = " +num1*num1);
     }
+
+//Human Verification using while loop
+
+    function robot()
+    {
+        var que = prompt("What is 10+2")
+        while(que==12)
+        {
+            window.location= "https://www.google.com/search";
+        }
+        document.write("ERROR 404 ");
+    }
+
+//confirm box
+
+    function exit()
+    {
+        var msg = confirm("Do you exit");
+        if(msg)
+        {
+            window.location= "https://www.google.com/search";   
+        }
+        else
+        {
+            alert("Thanks for staying in the page")
+        }
+    }
+
+
 

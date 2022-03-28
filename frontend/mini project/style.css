@@ -5,6 +5,7 @@ body
         background-size: cover;
     }
 
+
 .tag
     {
         position: absolute;
@@ -15,18 +16,19 @@ body
         background-color: white;
     }
 
-.signin input
+.signup input
     {
         position: relative;
         top : 15px;
         left: 600px;
-        width: 50px;
+        width: 60px;
         color: black;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         border-color: transparent;
+        background-color: transparent;
     }
-.signin input:hover
+.signup input:hover
     {
         color: blue;
     }
@@ -41,6 +43,7 @@ body
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         border-color: transparent;
+        background-color: transparent;
     }
 .login input:hover
     {
@@ -194,7 +197,7 @@ body
     }
 
     
-.signinpage fieldset
+.signuppage fieldset
 {
     position: absolute;
     top: 100px;
@@ -233,7 +236,7 @@ body
 
 }
 
-.signinpage label
+.signuppage label
 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -241,7 +244,7 @@ body
 
 }
 
-.signinpage input
+.signuppage input
 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -267,7 +270,7 @@ body
     background-color: blue;
 }
 
-.signinpage img
+.signuppage img
 {
     position: relative;
     width: 500px;
@@ -298,5 +301,15 @@ h1{
 
 .bcktohome input:hover
 {
-    background-color: brown;
+    background-color: rgb(214, 192, 192);
 }
+
+.logo img
+    {
+        
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        
+        
+    }
