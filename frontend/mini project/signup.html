@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signin</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div class="signuppage">
@@ -17,13 +18,13 @@
                 <label>Class</label><br>
                 <input type ="number" pattern="[0-9]{2}" placeholder="Class info"><br><br>
                 <label>Create Password</label><br>
-                <input type="text" placeholder="Create password" required><br><br>
+                <input type="password" placeholder="Create password" required><br><br>
                 <label>Email ID</label><br>
                 <input type = "text" placeholder="Enter mail id"><br><br>
                 <label>Mobile Number</label><br>
                 <input type="tel" pattern="[0-9]{10}" placeholder="Mobile number"><br><br>
                 <div class="btnsin">
-                <input type="submit" value="Register"></div>
+                <input type="submit" onclick="register()" value="Register"></div>
         </fieldset>
         </form>
     </div>

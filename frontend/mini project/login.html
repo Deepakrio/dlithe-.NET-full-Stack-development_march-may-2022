@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div class="loginpage">
@@ -13,12 +14,12 @@
         <form method="post">
             <fieldset>
             <label>Userame &nbsp;</label>
-            <input type="text" name="" placeholder="Enter your name"><br><br>
+            <input id="name" type="text" name="" placeholder="Enter your name"><br><br>
             <label>Password</label>
-            <input type="text" name="" placeholder="Enter Password" required><br><br>
+            <input id="psd" type="password" name="" placeholder="Enter Password" required><br><br>
             <div class="btn">
                 <div class="btnlog">
-            <input type="submit" value="Login">
+            <input type="submit" onclick="login()" value="Login">
         </div>
         </fieldset>
         </form>
