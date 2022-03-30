@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#id1").click(function(){
+    $(this).hide();
+  });
+
+  
+  $("#id2").click(function(){
+    $("#id1").show();
+  });
+});
+
+</script>
+</head>
+<style>
+    body
+    {
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    }
+    #img1 img
+    {
+        position:absolute;
+        width: 100px;  
+        height: 125px; 
+    }
+    #img2 img
+    {
+        position: absolute;
+        width: 100px;  
+        left: 110px;
+           
+    }
+    #img3 img
+    {
+        position: absolute;
+        width: 100px; 
+        height: 125px; 
+       left: 320px;  
+    }
+    #img4 img
+    {
+        position: relative;
+        width: 100px;  
+        left: 215px; 
+        height: 125px;
+    }
+
+    .frame
+    {
+        position:absolute;
+        width: 500px;
+        height: 500px;
+        top: 0%;
+        left: 30%;
+        
+    }
+    #id2
+    {
+        position: absolute;
+        /* top: 500px;
+       left: 640px; */
+        width: 100px;
+
+    }
+
+</style>
+<body>
+   <h1>Father of our nation?</h1>
+   <input id="id2" type="button" value="reset"></input>
+    </div>
+    <div class="frame">
+    <div id="img1">
+        <img  src="assets/bhagatsingh.jpg" >
+    </div>
+  <div id="img2">
+        <img id="id1" src="assets/Mahatma-Gandhi.jpg" > 
+    </div>
+    <div id="img3">
+        <img src="assets/netaji-subhash-chandra-bose.jpg" >
+    </div>
+    <div id="img4">
+        <img src="assets/Jnehru.jpg" >
+    </div>
+       
+</div>
+</body>
+</html>
