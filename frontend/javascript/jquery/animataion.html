@@ -16,8 +16,27 @@
       });
     });
     </script>
+    <script>
+
+         $(document).ready(function(){
+         $("button").click(function(){
+            $("h3") 
+            .animate({color: 'blue'},"fast")
+            .animate({left: '400px'}, "slow")
+            .animate({fontSize: '40px'}, 1000)
+      
+    });
+  });
+  </script> 
 
     <style>
+
+        h3
+        {
+            position: relative;
+            left: 90px;
+           color: white;
+        }
     
         h1
         {
@@ -57,6 +76,13 @@
     <div class="frame">
         <input class="newsbtn" type="button" value="Check today's News paper">
             <img id="img" src="assets/news.webp">
+            <div class="ani">
+                <button>Subscribe!</button>
+                <h3>Subscribed</h3>
+            </div>
+        
     </div>
+    
+    
 </body>
 </html>
