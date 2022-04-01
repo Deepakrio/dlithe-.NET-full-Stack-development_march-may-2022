@@ -1,0 +1,128 @@
+
+    body
+    {
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        margin: 0px;
+        padding: 0px;
+    }
+    .frame
+    {
+        position: sticky;
+       
+        background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+        top: 0px;
+        height: 70px;
+        z-index: 1;
+    }
+    .btn-link
+    {
+        position: relative;
+        color: black;
+        padding: 20px;
+        left: 600px;
+
+    }
+    .btn-link:hover
+    {
+       color: black;
+       font-weight:500;
+       text-decoration: none;
+    }
+    #logo
+    {
+        position: relative;
+        height: 60px;
+        width: 100px;
+
+    }
+    #introimg
+    {
+        position: relative;
+        width: 1260px;
+        height: 500px;
+        left: 10px;
+        z-index: -1;
+    }
+    #intromsg
+    {
+        position: relative;
+        bottom: 340px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 52px;
+        color: darkred;
+        right: 100px;
+    }
+ .introbtn .btn-primary 
+    {
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: relative;
+        bottom: 430px;
+        left: 90px;
+        width: 200px;
+    }
+.introbtn .btn-primary:hover
+    {
+        background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+     .col-sm-4
+    {
+        position: relative;
+        bottom: 270px;
+    }
+
+  .jumbotron
+    {
+        margin: 50px;
+        left: 100px;
+        background: #ff6e7f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    #jobsimg
+    {
+        position: relative;
+        width: 680px;
+        height: 300px;
+        bottom: 230px;
+        z-index: -1;
+    }
+
+    #jobmsg
+    {
+        position: relative;
+        bottom: 320px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        color: black;
+        right: 90px;
+    }
+
+    .jobbtn .btn-primary 
+    {
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        position: relative;
+        bottom: 420px;
+        left: 530px;
+        width: 100px;
+        
+    }
+.jobbtn .btn-primary:hover
+    {
+        background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+   

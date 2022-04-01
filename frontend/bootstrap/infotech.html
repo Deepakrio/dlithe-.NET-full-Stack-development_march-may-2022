@@ -16,119 +16,8 @@
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body
-    {
-        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .frame
-    {
-        position: sticky;
-       
-        background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-        top: 0px;
-        height: 70px;
-        z-index: 1;
-    }
-
-    .btn-link
-    {
-        position: relative;
-        color: black;
-        padding: 20px;
-        left: 600px;
-
-    }
-
-    .btn-link:hover
-    {
-       color: black;
-       font-weight:500;
-       text-decoration: none;
-    }
-
-    #logo
-    {
-        position: relative;
-        height: 60px;
-        width: 100px;
-
-    }
-
-    #introimg
-    {
-        position: relative;
-        width: 1260px;
-        height: 500px;
-        left: 10px;
-        z-index: -1;
-    }
-
-    #intromsg
-    {
-        position: relative;
-        bottom: 340px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 52px;
-        color: darkred;
-        right: 100px;
-    }
-
- .introbtn .btn-primary 
-    {
-        background: #c31432;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        position: relative;
-        bottom: 430px;
-        left: 90px;
-        width: 200px;
-    }
-
-.introbtn .btn-primary:hover
-    {
-        background: #23074d;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-    }
-
-     .col-sm-4
-    {
-        position: relative;
-        bottom: 270px;
-    }
-
-  .jumbotron
-    {
-        margin: 50px;
-        left: 100px;
-        background: #ff6e7f;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-
-    #jobsimg
-    {
-        position: relative;
-        width: 680px;
-        height: 300px;
-        bottom: 230px;
-        z-index: -1;
-    }
-
-
-
-   
-</style>
 <body>
     
     <div class="frame">
@@ -147,7 +36,7 @@ background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, F
              service and solution provider
          </pre>
          <div class="introbtn">
-         <button class="btn btn-primary">Read more</button> 
+         <button class="btn btn-primary " style="background-color: transparent; border-color: transparent;">Read more</button> 
         </div>
      </div>
 
@@ -167,7 +56,29 @@ background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, F
 
       <div class="jobs">
           <img id="jobsimg" src="assets/jobs.jpg">
+          <pre id="jobmsg">
+            Get your Dream job.. 
+                The rite place to start your career... 
+        </pre>
+        <div class="jobbtn">
+            <button class="btn btn-primary " style="background-color: transparent; border-color: transparent;">Get job</button> 
+           </div>
       </div>
+
+      <div class="container" style="position: relative; bottom: 700px; left: 750px; ">  
+        <h1 style="font-size: 24px;">Our happy clients</h1>  <br>
+        <img src="assets/infy.jpg" style="position: relative; height: 50px; width: 100px;">
+        <img src="assets/dlithe.png" style="position: relative; height: 50px; width: 100px;">
+        <img src="assets/mindtree.jpg"style="position: relative; height: 50px; width: 100px;"><br><br>>
+        <img src="assets/eele.png"style="position: relative; height: 50px; width: 100px;">
+        <img src="assets/Behaviorsoft_Logo.jpg"style="position: relative; height: 50px; width: 100px;">
+        <img src="assets/connectwise.png" style="position: relative; height: 50px; width: 100px;"> <br><br>
+        <img src="assets/datalyzer.png" style="position: relative; height: 50px; width: 100px;">
+        <img src="assets/SYKES-Symphony-Thumbnail-1184x666.png"style="position: relative; height: 50px; width: 100px;">
+        <img src="assets/prime-global.png"style="position: relative; height: 50px; width: 100px;">      
+      </div> 
+
+      
 
 </body>
 </html>
