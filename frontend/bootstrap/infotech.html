@@ -8,16 +8,42 @@
      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
     <!--Bootstrap 4 style-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">   -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>-->
   
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+    function validate()
+{  
+var email=document.getElementById("email").value;
+var pwd=document.getElementById("pwd").value;
+  
+if (email==null || email=="")
+
+{  
+  alert("Email can't be blank");  
+  return false;  
+}
+
+else if(pwd.length<6)
+
+
+} 
+
+function Check() {
+  return validate();      
+}
+</script>
+
 <body>
     
     <div class="frame">
@@ -31,7 +57,7 @@
 
      <div class="intro">
          <img id="introimg" src="assets/image1.jpg">
-         <pre id="intromsg">
+         <pre id="intromsg" style="background-color: transparent; border: none;">
              Industry leading
              service and solution provider
          </pre>
@@ -43,12 +69,11 @@
      <div class="container">
         <div class="row">
           <div class="col-sm-4 jumbotron">
-                <h1>Achivement 1</h1>        
-                <p>content....</p>   
-        </div>
+                <h1 style="font-size: 32px;">Education Platform Facilitates Omnichannel Learning</h1>        
+                <p>Can educational services company offering learning programs at 90 campuses across the US and Europe sought an education portal to support omnichannel learning.</p>        </div>
         <div class="col-sm-4 jumbotron">
-            <h1>Achivement 2</h1>        
-            <p>content....</p>   
+            <h1 style="font-size: 32px;">Accelerating Citizens Energy Group’s Customer Experience journey</h1>        
+            <p>Utilities, an industry that has historically been unilateral, must now adopt change the way they work to meet the ever-rising demands of the increasingly involved consumers. </p>   
     </div>
           
         </div>
@@ -56,12 +81,12 @@
 
       <div class="jobs">
           <img id="jobsimg" src="assets/jobs.jpg">
-          <pre id="jobmsg">
+          <pre id="jobmsg" style="background-color: transparent; border: none;">
             Get your Dream job.. 
                 The rite place to start your career... 
         </pre>
         <div class="jobbtn">
-            <button class="btn btn-primary " style="background-color: transparent; border-color: transparent;">Get job</button> 
+            <button class="btn btn-primary " style="background-color: transparent; border-color: transparent;">Join us</button> 
            </div>
       </div>
 
@@ -78,7 +103,42 @@
         <img src="assets/prime-global.png"style="position: relative; height: 50px; width: 100px;">      
       </div> 
 
-      
+      <div class="container" style="position: relative; height: 300px;" >
+        <img src="assets/meet.jpg" style="position: relative;   width: 1190px;height: 500px; bottom: 600px; right: 40px;">
+        <pre id="jobmsg" style="background-color: transparent; border: none; position: relative; bottom: 750px; font-size: 40px; color: white;">
+           Using Simplification to 
+                    Solve Complex problems....
+        </pre>
+    </div>
 
+<div class="container" style="position: relative; bottom: 250px;">
+      <div class="container" style="position: absolute; width: 300px; left: 0px;">  
+        <h2 style="color: rgb(16, 17, 18); font-size: 18px;">Subscribe to our Newsletter</h2>  
+        <form role="form" action="BootstrapSample.html" onsubmit="return validate()" method="POST"  name="f1">  
+          <div class="form-group">   
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">  
+          </div>  
+          <button type="submit" class="btn btn-primary" value="Check" >Submit</button>  
+        </form>  
+    </div> 
+
+    <div class="container" style="position: absolute; width: 300px; left: 500px;">  
+        <h2 style="color: rgb(16, 17, 18); font-size: 18px;">Contact info:</h2>  
+        <address>#123 , A block brigade magnum , kodigenalli yalahanka Bangalore</address>
+        <h2 style="color: rgb(16, 17, 18); font-size: 18px;">+91-9897898789</h2>  
+        <button type="submit" class="btn btn-primary" value="Check" style="position: relative; bottom: 40px; left: 150px;" >call now</button>  
+    </div> 
+
+    <div class="container" style="position: absolute; width: 300px; left: 1000px; ">  
+        <h2 style="color: rgb(16, 17, 18); font-size: 18px;">Connect with us</h2>   
+        <i class="fa fa-linkedin-square"></i>&nbsp;	
+        <i class="fa fa-facebook-square"></i>&nbsp;		
+        <i class="fa fa-instagram"></i>&nbsp;	
+        <i class="fa fa-twitter-square"></i>&nbsp;	
+        
+              </div> 
+            </div>
+
+      
 </body>
 </html>
