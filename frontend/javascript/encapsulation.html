@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #det
+    {
+         position: absolute;
+            top: 150px;
+            left: 420px;
+            font-size: 50px;
+
+        }
+</style>
+<body>
+
+    <p id="det"></p>
+    
+</body>
+
+<script>
+    class fandetails
+      {
+        //consturctor
+        constructor()
+        {
+           var name;
+           var mobnum;
+           var email;
+        }
+            //getname function to read the name
+            getName()
+            {
+              return this.name;
+            }
+            //setname function to write the name
+          setName(name)
+          {
+            this.name=name;
+          }
+          //getmobnum function to read the mobile number
+          getmobnum()
+          {
+            return this.mobnum;
+          }
+            //setmobnum function to write the mobile number
+        setmobnum(mobnum)
+        {
+              this.mobnum=mobnum;
+        }
+        
+          //getemail function to read the email
+        getemail()
+          {
+            return this.email;
+          }
+              //setemail function to write the email
+        setemail(email)
+        {
+              this.email=email;
+        }
+        }
+
+
+        var fan=new fandetails();
+        //passing args
+         fan.setName("Sampreeth");
+         fan.setmobnum(9898767876);
+         fan.setemail("sam313@gmail.com");
+        document.getElementById("det").innerHTML= "Fan Details"+"<br><br>"+fan.getName()+"<br> "+fan.getmobnum()+"<br>"+fan.getemail();
+    </script>
+</html>

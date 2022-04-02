@@ -24,9 +24,10 @@
 
  
 <script>
-    // Defining class using es6
+    // Defining class concert
     class concert 
     {
+        //parameter constructor
         constructor(artist,genre,date,time,location)
         {
             this.artist = artist;
@@ -42,19 +43,22 @@
 		this.audi = 'Summer Land';
 	}
 
+    //prototype to define cost of the concert
 	seats.prototype.cost = "500.Rs";
 
+    //creating objects of type class
 	var s1 = new seats();
 	alert("Cost at front row"+s1.cost+"at " +s1.audi); 
 
+      //creating objects of type class
 	var s2 = new seats();
 	alert("Cost for first stand"+s2.cost+"at " +s1.audi);
 
     
-
+        //passing values to the constuctor
         var c = new concert("Deepak","Hip-Hop","12-04-2022","8:00 pm","Bengaluru");
         
-
+        //display method
         document.getElementById("con").innerHTML = "Artist : "+c.artist+"<br>"+"Genre : "+c.genre+"<br>"+"Date : "+c.date+"<br>" +"Time : "+c.time+"<br>"+"Location : "+c.location+"<br>"; 
 
 

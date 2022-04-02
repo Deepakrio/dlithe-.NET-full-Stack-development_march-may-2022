@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeatSort</title>
+</head>
+<body>
+    
+</body>
+
+    <script>
+          
+        function seat()
+        {
+            //if the argument has no values this condition will execute
+            if(arguments.length==0)
+            {
+               document.write("Invalid Name<br>")
+            }
+            //if args is 1 this condition will execute
+            else if(arguments.length==1)
+            {
+                document.write("Single Entry<br>");
+            }
+            //if args is 2 this condition will execute
+            else if(arguments.length==2)
+            {
+              document.write("Couple Entry <br>");
+            }
+            //if above value doesnt satisfy then this condition will execute
+            else
+            {
+                document.write("Group entry<br>");
+            }
+        }
+
+        //overloading seat function
+        seat();
+        seat("sam");
+        seat("girish","anupama");
+        seat("rohan","deepak","ameen","sridhar","venki","sangamesh");
+ 
+    
+    </script>
+</html>

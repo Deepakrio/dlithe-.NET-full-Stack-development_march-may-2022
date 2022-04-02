@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tickets</title>
+</head>
+<body>
+    <script>
+        //Abstract class
+        class backoffice
+        {
+            //default constuctor
+            constructor()
+            {
+                //throws error if this condition gets true i.e, if the program tries to create objects for this class
+                if(this.constructor == backoffice)
+                {
+                    throw new Error(" Tickets not generated");
+                }
+
+            }
+
+            //throws an error if the program tries to call this function directly it can be only called by subclass or with a super keyword
+            details()
+            {
+                throw new Error(" Display error");
+            }
+        }
+
+
+        //Inheritted sub class
+        class tickets extends backoffice
+        {
+            //usage of base class functions
+            details()
+            {
+                document.write("Tickets confirmed Your seat number is 123A");
+            }
+        }
+
+        //object creation
+        var tic = new tickets();
+
+        //accessing function using sub class
+            tic.details();
+</script>
+</body>
+</html>
+
+
+
+
