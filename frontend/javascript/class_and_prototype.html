@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert</title>
+    <style>
+        #con
+        {
+            position: absolute;
+            top: 150px;
+            left: 420px;
+            font-size: 50px;
+
+        }
+    </style>
+ <body>
+        
+    <p id="con"></p>
+            
+</body>
+</html>
+
+ 
+<script>
+    // Defining class using es6
+    class concert 
+    {
+        constructor(artist,genre,date,time,location)
+        {
+            this.artist = artist;
+            this.genre = genre;
+            this.date = date;
+            this.time = time;
+            this.location=location
+        }
+
+    }
+
+    function seats() {
+		this.audi = 'Summer Land';
+	}
+
+	seats.prototype.cost = "500.Rs";
+
+	var s1 = new seats();
+	alert("Cost at front row"+s1.cost+"at " +s1.audi); 
+
+	var s2 = new seats();
+	alert("Cost for first stand"+s2.cost+"at " +s1.audi);
+
+    
+
+        var c = new concert("Deepak","Hip-Hop","12-04-2022","8:00 pm","Bengaluru");
+        
+
+        document.getElementById("con").innerHTML = "Artist : "+c.artist+"<br>"+"Genre : "+c.genre+"<br>"+"Date : "+c.date+"<br>" +"Time : "+c.time+"<br>"+"Location : "+c.location+"<br>"; 
+
+
+</script>
