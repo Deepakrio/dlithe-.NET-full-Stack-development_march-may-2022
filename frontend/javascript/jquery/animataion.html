@@ -1,15 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-       $(document).ready(function () 
-       {
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
       $(".newsbtn").click(function () {
         $("#link1").toggle("slow", function () {
           confirm("Sunscribe to Times of india");
@@ -17,154 +16,147 @@
       });
     });
 
-    $(document).ready(function(){
-         $("button").click(function(){
-            $("#link2") 
-            // .animate({color: 'blue'},"fast")
-            .animate({width: '1050px'},"fast")
-            .animate({height: '1700px'},"slow")
-      
+    $(document).ready(function () {
+      $("button").click(function () {
+        $("#link2")
+          // .animate({color: 'blue'},"fast")
+          .animate({ width: '1050px' }, "fast")
+          .animate({ height: '1700px' }, "slow")
+
+      });
     });
-  });
 
-    $(document).ready(function(){
-       $(".quote").click(function(){
-           $("#q1").css("color", "red").slideDown(5000).css("color", "blue")
-           .animate({left: '-190px'}, "slow").slideUp(5000);
-          
-  });
-});
+    $(document).ready(function () {
+      $(".quote").click(function () {
+        $("#q1").css("color", "red").slideDown(5000).css("color", "blue")
+          .animate({ left: '-190px' }, "slow").slideUp(5000);
 
-$(document).ready(function(){
-  $( "#q2" ).on({
-    mouseenter: function() {
-      $(this).css("background-color", "blue")
-    },
-    mouseleave: function() {
-      $(this).css("background-color", "white")
-    },
-    click: function() {
-        alert("Thanks for checking")
+      });
+    });
+
+    $(document).ready(function () {
+      $("#q2").on({
+        mouseenter: function () {
+          $(this).css("background-color", "blue")
+        },
+        mouseleave: function () {
+          $(this).css("background-color", "white")
+        },
+        click: function () {
+          alert("Thanks for checking")
+        }
+      });
+    });
+  </script>
+
+
+  <style>
+    h3 {
+      position: relative;
+      left: 90px;
+      color: white;
     }
-});
-});
-    </script>
-  
 
-    <style>
+    h1 {
+      position: absolute;
+      top: 0px;
+      left: 400px;
+      font-size: 72px;
 
-        h3
-        {
-            position: relative;
-            left: 90px;
-           color: white;
-        }
-    
-        h1
-        {
-            position: absolute;
-            top: 0px;
-            left: 400px;
-           font-size: 72px;
+    }
 
-        }
-        .frame
-        {
-            position: absolute;
-            top: 150px;
-           
+    .frame {
+      position: absolute;
+      top: 150px;
 
-        }
-      .newsbtn 
-        {
-            position: relative;
-            top: 0px;
-            left: 90px;
-            width: 1050px;
-        }
 
-        #link1
-        {
-            position: relative;
-            left: 90px;
-            width: 1050px;
-            height: 700px;
-            display: none;
-        }
+    }
 
-        button
-        {
-          position: relative;
-          top: 20px;
-          left: 170px;
-        }
+    .newsbtn {
+      position: relative;
+      top: 0px;
+      left: 90px;
+      width: 1050px;
+    }
 
-        #link2
-        {
-          position: relative;
-          right: 50px;
-        }
+    #link1 {
+      position: relative;
+      left: 90px;
+      width: 1050px;
+      height: 700px;
+      display: none;
+    }
 
-        p
-        {
-          position: relative;
-          top: 20px;
-        }
+    button {
+      position: relative;
+      top: 20px;
+      left: 170px;
+    }
 
-        /* .quote
+    #link2 {
+      position: relative;
+      right: 50px;
+    }
+
+    p {
+      position: relative;
+      top: 20px;
+    }
+
+    /* .quote
         {
           position: relative;
           left: 400px;
           top: 50px;
         } */
-        
-        #q1
-        {
-          position: relative;
-          left: 300px;
-          bottom: 90px;
-          font-size: 32px;
-        }
 
-        #q2
-        {
-          position: relative;
-          left: 300px;
-          bottom: 90px;
-          font-size: 32px;
-        }
-        .divq
-        {
-          position: relative;
-          top: 100px;
-        }
-    </style>
+    #q1 {
+      position: relative;
+      left: 300px;
+      bottom: 90px;
+      font-size: 32px;
+    }
+
+    #q2 {
+      position: relative;
+      left: 300px;
+      bottom: 90px;
+      font-size: 32px;
+    }
+
+    .divq {
+      position: relative;
+      top: 100px;
+    }
+  </style>
 
 </head>
+
 <body>
-    <h1>News Junction</h1>
-    <div class="frame">
-        <input class="newsbtn" type="button" value="View Times of India">
-            <iframe id="link1" src="https://timesofindia.indiatimes.com/news"></iframe>
-            <div class="ani">
-               <button>View Deccan herald</button>
-               <iframe id="link2" src="https://www.deccanherald.com/"></iframe>
-            </div>
-        <div class="divq">
-          <input  class="quote" type="button" value="hide quote">
-          <pre id="q1">
+  <h1>News Junction</h1>
+  <div class="frame">
+    <input class="newsbtn" type="button" value="View Times of India">
+    <iframe id="link1" src="https://timesofindia.indiatimes.com/news"></iframe>
+    <div class="ani">
+      <button>View Deccan herald</button>
+      <iframe id="link2" src="https://www.deccanherald.com/"></iframe>
+    </div>
+    <div class="divq">
+      <input class="quote" type="button" value="hide quote">
+      <pre id="q1">
             “The purpose of our lives is to be happy.”
                       <b>— Dalai Lama</b> 
           </pre>
-        </div>
-        <div class="divq2">
-          <p id="q2">
-            “You only live once, but if you do it right, once is enough.”
-                          <b> — Mae West</b>
-        </p>
-        </div>
     </div>
-    
-    
+    <div class="divq2">
+      <p id="q2">
+        “You only live once, but if you do it right, once is enough.”
+        <b> — Mae West</b>
+      </p>
+    </div>
+  </div>
+
+
 </body>
+
 </html>
