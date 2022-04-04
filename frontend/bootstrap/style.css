@@ -34,12 +34,13 @@ body {
     text-decoration: none;
 }
 
-/* logo positioning */
+/* logo positioning and blending the image w.r.t to background color using darken blend mode*/
 
 #logo {
     position: relative;
     height: 60px;
     width: 100px;
+    mix-blend-mode: darken;
 
 }
 
