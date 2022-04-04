@@ -3,17 +3,21 @@ body {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     margin: 0px;
     padding: 0px;
+    position: absolute;
+   
 }
 
+
+
 /* styling of navigation bar */
-.frame {
+/* .frame {
     position: sticky;
 
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     top: 0px;
     height: 70px;
     z-index: 1;
-}
+} */
 
 /* styling buttons inside navigation bar */
 
@@ -48,9 +52,9 @@ body {
 
 #introimg {
     position: relative;
-    width: 1260px;
-    height: 500px;
-    left: 10px;
+     width: 1260px;
+    height: 500px; 
+     left: 10px; 
     z-index: -1;
 }
 
@@ -101,7 +105,7 @@ body {
 /* positioning and styling of jumbotron class */
 .jumbotron {
     margin: 50px;
-    left: 100px;
+    /* left: 100px; */
     background: #ff6e7f;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);
@@ -114,8 +118,8 @@ body {
 /* positioning of jobs image */
 #jobsimg {
     position: relative;
-    width: 680px;
-    height: 300px;
+    /* width: 680px;
+    height: 300px; */
     bottom: 230px;
     z-index: -1;
 }

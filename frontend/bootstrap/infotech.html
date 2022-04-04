@@ -6,12 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>infotech</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+   
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>   -->
 </head>
 
 <script>
@@ -19,12 +27,12 @@
   function validate() {
     var email = document.getElementById("email").value;
 
-    if (email == null || email == "") {
+    if (email == null || email == "") 
       alert("Email can't be blank");
       return false;
     }
 
-  }
+ 
 
   function Check() {
     return validate();
@@ -32,8 +40,8 @@
 </script>
 
 <body>
-
-<!-- To hold navigation buttons and company logo -->
+<!-- 
+ To hold navigation buttons and company logo
 
   <div class="frame">
     <img id="logo" src="assets/download.png">
@@ -42,13 +50,49 @@
     <button class="btn btn-link ">About us</button>
     <button class="btn btn-link ">Investors</button>
     <button class="btn btn-link ">Careers</button>
-  </div>
+  </div>  -->
 
-  <!-- To display Welcome/introduction content and with a button for more information -->
+  <!-- nav bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" >  
+    <div class="container-fluid">  
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#">infotech</a>  
+      </div>
+       
+        <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">  
+        <li class="active"><a href="#">Home</a></li>  
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Domain <span class="caret"></span></a>  
+          <ul class="dropdown-menu">  
+            <li><a href="#">IT</a></li>  
+            <li><a href="#">Healthcare</a></li>  
+            <li><a href="#">Hospitality</a></li>  
+            <li><a href="#">Network & communication</a></li> 
+          </ul>  
+        </li>  
+        <li><a href="#">Career</a></li>  
+        <li><a href="#">Investers</a></li>  
+        <li><a href="#">About us</a></li>  
+      </ul> 
+      <ul class="nav navbar-nav navbar-right">  
+        <li><a href="BootstrapRegistration.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>  
+        <li><a href="BootstrapForm.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>  
+      </ul>   
+    </div> 
+    </div> 
+ 
+  </nav>
+
+  <!-- To display Welcome/introduction content and with a button for more information  -->
 
   <div class="intro">
-    <img id="introimg" src="assets/image1.jpg">
-    <pre id="intromsg" style="background-color: transparent; border: none;">
+    <img id="introimg" class="container-fluid" src="assets/image1.jpg">
+    <pre id="intromsg" class="container-fluid" style="background-color: transparent; border: none;">
              Industry leading
              service and solution provider
          </pre>
@@ -60,7 +104,7 @@
 
   <!-- Container holds the jumbotron class with 2 columns and Displays the content inside it -->
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4 jumbotron">
         <h1 style="font-size: 32px;">Education Platform Facilitates Omnichannel Learning</h1>
@@ -77,10 +121,10 @@
   </div>
 
 <!-- To display information about jobs @infotech and with a join us button -->
-
-  <div class="jobs">
-    <img id="jobsimg" src="assets/jobs.jpg">
-    <pre id="jobmsg" style="background-color: transparent; border: none;">
+<div class="container-fluid">
+  <div class="jobs container-fluid">
+    <img id="jobsimg"  src="assets/jobs.jpg">
+    <pre id="jobmsg"  style="background-color: transparent; border: none;">
             Get your Dream job.. 
                 The rite place to start your career... 
         </pre>
@@ -89,10 +133,10 @@
         us</button>
     </div>
   </div>
-
+</div>
   <!-- This displays series of images of our happy clients -->
 
-  <div class="container" style="position: relative; bottom: 700px; left: 750px; ">
+  <div class="container-fluid" style="position: relative; bottom: 700px; left: 750px; ">
     <h1 style="font-size: 24px;">Our happy clients</h1> <br>
     <img src="assets/infy.jpg" style="position: relative; height: 50px; width: 100px;">
     <img src="assets/dlithe.png" style="position: relative; height: 50px; width: 100px;">
@@ -105,9 +149,55 @@
     <img src="assets/prime-global.png" style="position: relative; height: 50px; width: 100px;">
   </div>
 
-<!-- Image about our working principle -->
 
-  <div class="container" style="position: relative; height: 300px;">
+  <div class="container-fluid" style="position: relative; height: 500px; bottom: 600px;">  
+      
+    <!--data-ride="carousel"-a slideshow for cycling through a series of content-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+      <!-- Indicators -->  
+      <ol class="carousel-indicators">  
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>  
+        <li data-target="#myCarousel" data-slide-to="1"></li>  
+        <li data-target="#myCarousel" data-slide-to="2"></li>  
+      </ol>  
+    
+     
+      <div class="carousel-inner" role="listbox">  
+        <div class="item active" style="background-color: aliceblue;">  
+          <img src="assets/3.jpg" alt="Team" >
+            
+        </div>  
+    
+        <div class="item" style="background-color: aliceblue;">  
+          <img src="assets/2.jpg" alt="Office1" > 
+      
+        </div>  
+        
+        <div class="item" style="background-color: aliceblue;">  
+          <img src="assets/1.jpg" alt="Office2" >
+           
+        </div>  
+      </div>  
+    
+      <!-- Left and right controls -->  
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">  
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
+        <span class="sr-only">Previous</span> <!--screen readers--> 
+      </a>  
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> 
+        
+
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  
+        <span class="sr-only">Next</span>  
+      </a> 
+  
+  </div> 
+  </div><!-- corousel end --> 
+
+ 
+<!-- Image about our working principle
+
+  <div class="container-fluid" style="position: relative; height: 300px;">
     <img src="assets/prob.jpg" style="position: relative;   width: 1190px;height: 500px; bottom: 600px; right: 40px;">
     <pre id="jobmsg"
       style="background-color: transparent; border: none; position: relative; bottom: 750px; font-size: 32px; color: white;">
@@ -115,11 +205,11 @@
          Using Simplification to  
                Solve Complex problems..
         </pre>
-  </div>
+  </div> -->
 
 <!-- This whole container holds the Contact us information eith various input tags and a check box and with a submit button -->
 
-  <div class="container" style="position: relative; bottom: 250px; width: 500px; left: 45px;">
+  <div class="container-fluid" style="position: relative; bottom: 250px; width: 500px; left: 45px;">
     <h2 style="color: black;text-align: center; margin: 30px; text-decoration: underline;">Contact Us:</h2>
     <form role="form" action="index.html" onsubmit=" " method="POST" name="form2">
       <div class="form-group">
@@ -149,8 +239,8 @@
 
   <!-- This section is to ask user to subscribe to our news letter -->
 
-  <div class="container" style="position: relative; top: 20px; ">
-    <div class="container" style="position: absolute; width: 300px; left: 0px;">
+  <div class="container-fluid" style="position: relative; top: 20px; ">
+    <div class="container-fluid" style="position: absolute; width: 300px; left: 0px;">
       <h2 style="color: rgb(16, 17, 18); font-size: 18px;">Subscribe to our Newsletter</h2>
       <form role="form" action="infotech.html" onsubmit="return validate()" method="POST" name="form1">
         <div class="form-group">
@@ -162,7 +252,7 @@
 
     <!-- Displays company address with phone number -->
 
-    <div class="container" style="position: absolute; width: 300px; left: 500px;">
+    <div class="container-fluid" style="position: absolute; width: 300px; left: 500px;">
       <h2 style="color: rgb(16, 17, 18); font-size: 18px;">Contact info:</h2>
       <address>#123 , A block brigade magnum , kodigenalli yalahanka Bangalore</address>
       <h2 style="color: rgb(16, 17, 18); font-size: 18px;">+91-9897898789</h2>
@@ -171,7 +261,7 @@
     </div>
 
     <!-- Displays our social media links in the form icons using  font-awesome -->
-    <div class="container" style="position: absolute; width: 300px; left: 1000px; ">
+    <div class="container-fluid" style="position: absolute; width: 300px; left: 1000px; ">
       <h2 style="color: rgb(16, 17, 18); font-size: 18px;">Connect with us</h2>
       <i class="fa fa-linkedin-square"></i>&nbsp;
       <i class="fa fa-facebook-square"></i>&nbsp;
