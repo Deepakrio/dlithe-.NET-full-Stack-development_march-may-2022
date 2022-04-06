@@ -25,6 +25,7 @@ header .nav-item:last-child {
 }
 
 header .nav-item {
+
     padding: 1em;
 }
 
@@ -62,14 +63,15 @@ header .container .col-md-7 h1 {
 
 .section-2 {
     position: relative;
-    background-image: url(assets/3.jpg);
-    height: 220vmin;
+    background-image: url(assets/stat.jpg);
+    height: 115vmin;
+    z-index: -2;
 
 }
 
 .cover .content {
     position: relative;
-    top: 130vmin;
+    top: 30vmin;
     color: orange;
 }
 
@@ -80,14 +82,16 @@ header .container .col-md-7 h1 {
 
 .numbers .circle {
     position: relative;
-    top: 130vmin;
+    top: 40vmin;
     background-color: orange;
+    text-align: center;
     width: 7rem;
     height: 5rem;
-    padding: 3.5vmin;
+    padding: 2vmin;
     margin: 1.2rem;
     border-radius: 50em;
 }
+
 
 
 .numbers .circle p {
@@ -139,7 +143,103 @@ header .container .col-md-7 h1 {
     top: 40vmin;
     margin: 2rem;
     width: 90vmin;
-    align-content: center;
-  
+
+}
+
+footer{
+    background-image: url(assets/footer.jpg);
+}
+
+footer  .col-md-3
+{
+    color: whitesmoke;
+}
+
+footer  .col-md-4
+{
+    color: whitesmoke;
+}
+
+footer  .col-md-2
+{
+    color: whitesmoke;
+}
+
+.section7{
+    
+    background-image: url(assets/res.jpg);
+
+} 
+
+
+.section7 .col-md-5 img
+{
+    position: relative;
+    border-radius: 60vmin;
+    height: 50vmin;
+    width: 50vmin;
+    margin-top: 12vmin;
+    margin-right: 8vmin;
+}
+
+.section7 .col-md-7 h1
+{
+    font-size: 10vmin;
+    font-weight: bold;
+    padding: 0.2em 0em;
+    color: whitesmoke;
+    margin-top: 25vmin;
+    margin-right: 8vmin;
+
+}
+
+.section7 .col-md-7 h6
+{
+    padding: 1vmin;
+    letter-spacing: 4px;
+    color: whitesmoke;
+    margin-top: 1vmin;
+    margin-right: 8vmin;
+
+}
+
+
+.section8{
+    position: relative;
+    background-image: url(assets/4.jpg);
+    height: 109vmin;
+ 
+
+} 
+
+
+.section8 .col-md-5 img
+{
+    position: relative;
+    border-radius: 60vmin;
+    height: 50vmin;
+    width: 50vmin;
+    margin-top: 12vmin;
+    margin-right: 8vmin;
+}
+
+.section8 .col-md-7 h1
+{
+    font-size: 10vmin;
+    font-weight: bold;
+    padding: 0.2em 0em;
+    color: whitesmoke;
+    margin-top: 25vmin;
+    margin-right: 8vmin;
+
+}
+
+.section8 .col-md-7 h6
+{
+    padding: 1vmin;
+    letter-spacing: 4px;
+    color: whitesmoke;
+    margin-top: 1vmin;
+    margin-right: 8vmin;
 
 }
