@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+header {
+    background-image: url(assets/header.jpg);
+    position: relative;
+    height: 101vmin;
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 1em;
+}
+
+header .navbar-brand {
+    padding-left: 4rem;
+
+}
+
+header .nav-link:hover {
+    color: orange
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+    color: whitesmoke;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 10vmin;
+    font-weight: bold;
+    padding: 0.2em 0em;
+    color: whitesmoke;
+}
+
+.section-4 {
+    background-image: url(assets/2.jpg);
+
+}
+
+.section-2 {
+    position: relative;
+    background-image: url(assets/3.jpg);
+    height: 220vmin;
+
+}
+
+.cover .content {
+    position: relative;
+    top: 130vmin;
+    color: orange;
+}
+
+
+.cover .content h1 {
+    font-size: 5em;
+}
+
+.numbers .circle {
+    position: relative;
+    top: 130vmin;
+    background-color: orange;
+    width: 7rem;
+    height: 5rem;
+    padding: 3.5vmin;
+    margin: 1.2rem;
+    border-radius: 50em;
+}
+
+
+.numbers .circle p {
+    margin: 0.9em;
+    padding: 0.2vmin;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+
+.section-5{
+    position: relative;
+    background-image: url(assets/5.jpg);
+    height: 105vmin;
+}
+
+.row .review h1{
+    position: relative;
+    font-size: 5em;
+    top: 40vmin;
+}
+
+.row .review h6{
+    position: relative;
+    top: 40vmin;   
+}
+
+.section-6{
+    position: relative;
+    background-image: url(assets/6.jpg);
+    height: 105vmin;
+}
+
+.row .news h1{
+    position: relative;
+    font-size: 5em;
+    top: 40vmin;
+}
+
+.row .news h6{
+    position: relative;
+    top: 40vmin;   
+}
+
+.input-group{
+
+    position: relative;
+    top: 40vmin;
+    margin: 2rem;
+    width: 90vmin;
+    align-content: center;
+  
+
+}
