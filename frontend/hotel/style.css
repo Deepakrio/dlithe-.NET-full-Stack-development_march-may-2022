@@ -14,7 +14,7 @@ header a {
 }
 
 header {
-    background-image: url(assets/header.jpg);
+    background-image: url(assets/bg/header.jpg);
     position: relative;
     height: 101vmin;
 }
@@ -57,13 +57,14 @@ header .container .col-md-7 h1 {
 }
 
 .section-4 {
-    background-image: url(assets/2.jpg);
+    background-image: url(assets/bg/main1.jpg);
+    color: white;
 
 }
 
 .section-2 {
     position: relative;
-    background-image: url(assets/stat.jpg);
+    background-image: url(assets/bg/main3.jpg);
     height: 115vmin;
     z-index: -2;
 
@@ -105,7 +106,7 @@ header .container .col-md-7 h1 {
 
 .section-5{
     position: relative;
-    background-image: url(assets/5.jpg);
+    background-image: url(assets/bg/main5.jpg);
     height: 105vmin;
 }
 
@@ -122,7 +123,7 @@ header .container .col-md-7 h1 {
 
 .section-6{
     position: relative;
-    background-image: url(assets/6.jpg);
+    background-image: url(assets/bg/main6.jpg);
     height: 105vmin;
 }
 
@@ -147,7 +148,7 @@ header .container .col-md-7 h1 {
 }
 
 footer{
-    background-image: url(assets/footer.jpg);
+    background-image: url(assets/bg/footer.jpg);
 }
 
 footer  .col-md-3
@@ -167,7 +168,7 @@ footer  .col-md-2
 
 .section7{
     
-    background-image: url(assets/res.jpg);
+    background-image: url(assets/bg/main2.jpg);
 
 } 
 
@@ -206,7 +207,7 @@ footer  .col-md-2
 
 .section8{
     position: relative;
-    background-image: url(assets/4.jpg);
+    background-image: url(assets/bg/main4.jpg);
     height: 109vmin;
  
 
