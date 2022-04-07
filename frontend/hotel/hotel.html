@@ -14,15 +14,17 @@
   <link rel="stylesheet" href="./Style.css" />
   <link rel="stylesheet" href="./mobile-style.css">
 </head>
+<style>
 
+</style>
 <body>
   <header>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg  ">
+    <nav class="navbar navbar-expand-lg" >
+      <nav class="navbar fixed-top navbar-dark  " style="background-color: #22223d;">
         <a class="navbar-brand" href="#">
           <i class="fa-solid fa-plate-utensils"></i>
           Hungry Head</a>
-      
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,19 +33,19 @@
           <div class="mr-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" style="color: white;" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Promotion</a>
+              <a class="nav-link" style="color: white;" href="#promotion">Promotion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Promo</a>
+              <a class="nav-link"style="color: white; href="#">Promo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link"style="color: white; href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link"style="color: white; href="#">Contact</a>
             </li>
 
           </ul>
@@ -51,13 +53,15 @@
       </nav>
     </div>
 
-    <div class="container text-center">
+    <div  container text-center" id="home">
       <div class="row">
-        <div class="col-md-5"></div>
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-5 col-sm-12">
           <h1>Hungry Head</h1>
           <h6>since 1997</h6>
           <button class="btn btn-light px-5 py-2" style="background-color: orange; border: none;">Order now</button>
+
+        </div>
+        <div class="col-md-7 col-sm-12">
         </div>
       </div>
     </div>
@@ -66,16 +70,16 @@
 
   <main>
 
-    <section class="section-4">
+    <section class="section-4" id="promotion">
       <div class="container text-center">
-        <h1 >Best Seller</h1>
-        <p >Chicken-combo's</p>
+        <h1 style="font-size: 5em;">Popular Menu's</h1>
+        <p style="font-size: 2em;">Chicken-combo's</p>
       </div>
       <div class="team row ">
-        <div class="col-md-4 col-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center">
           <div class="card mr-2 d-inline-block " style="background-color: transparent; border: none;">
             <div class="card-img-top">
-              <img src="assets/dish4.jpg" class="img-fluid border-radius p-4" alt="">
+              <img src="assets/dish4.jpg" style="border-radius: 200px;" class="img-fluid border-radius p-4" alt="">
             </div>
             <div class="card-body">
               <h3 class="card-title">Chicken</h3>
@@ -84,18 +88,18 @@
                 soluta assumenda
                 minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
               </p>
-              <a href="#" class="text-secondary text-decoration-none">Order now</a>
+              <a href="#"  style="color: white;">Order now</a>
 
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-sm-12">
           <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
             <div class="carousel-inner text-center">
               <div class="carousel-item active">
                 <div class="card mr-2 d-inline-block" style="background-color: transparent; border: none;">
                   <div class="card-img-top">
-                    <img src="assets/dish1.jpg" class="img-fluid border-radius p-4" alt="">
+                    <img src="assets/dish1.jpg"style="border-radius: 200px;" class="img-fluid border-radius p-4" alt="">
                   </div>
                   <div class="card-body">
                     <h3 class="card-title">Chicken</h3>
@@ -104,14 +108,14 @@
                       dolor soluta assumenda
                       minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
                     </p>
-                    <a href="#" class="text-secondary text-decoration-none">Order now</a>
+                    <a href="#" style="color: white;">Order now</a>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="card  d-inline-block mr-2 " style="background-color: transparent; border: none;">
                   <div class="card-img-top">
-                    <img src="assets/dish2.jpg" class="img-fluid border-radius p-4" alt="">
+                    <img src="assets/dish2.jpg"style="border-radius: 200px;" class="img-fluid border-radius p-4" alt="">
                   </div>
                   <div class="card-body">
                     <h3 class="card-title">chicken</h3>
@@ -120,7 +124,7 @@
                       dolor soluta assumenda
                       minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
                     </p>
-                    <a href="#" class="text-secondary text-decoration-none">Order now</a>
+                    <a href="#" style="color: white;">Order now</a>
 
                   </div>
                 </div>
@@ -129,10 +133,10 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center">
           <div class="card mr-2 d-inline-block " style="background-color: transparent; border: none;">
             <div class="card-img-top">
-              <img src="assets/dish3.jpg" class="img-fluid border-radius p-4" alt="">
+              <img src="assets/dish3.jpg" style="border-radius: 200px;" class="img-fluid border-radius p-4" alt="">
             </div>
             <div class="card-body">
               <h3 class="card-title">Chicken</h3>
@@ -141,7 +145,7 @@
                 soluta assumenda
                 minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
               </p>
-              <a href="#" class="text-secondary text-decoration-none">Order now</a>
+              <a href="#" style="color: white;">Order now</a>
 
             </div>
           </div>
@@ -153,13 +157,13 @@
     <section class="section7 container-fluid p-0">
   <div class="container text-center">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5 col-sm-12" >
         <img src="assets/chicken-g0c8323643_1920.jpg">
       </div>
       <div class="col-md-7 col-sm-12">
-        <h1>Chicken Grill Roast</h1>
-        <h6>Grilled tender chicken kalmi piece 4x per plate only 200.Rs</h6>
-        <button class="btn btn-light px-5 py-2" style="background-color: orange; border: none;">Order now</button>
+        <h1 style="color: black;">Chicken Grill Roast</h1>
+        <h6 style="color: black;">Grilled tender chicken kalmi piece 4x per plate only 200.Rs</h6>
+        <button class="btn btn-light px-5 py-2" style="background-color: #22223d;color: white; border-radius: 20px; border: none;">Order now</button>
       </div>
     </div>
   </div></section>
@@ -168,11 +172,11 @@
     <section class="section-2 container-fluid p-0">
       <div class="cover">
         <div class="content text-center">
-          <h1>Statistics</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, corrupti.</p>
+          <h1 style="color: white;">Statistics</h1>
+          <p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, corrupti.</p>
         </div>
       </div>
-
+<!-- 
       <div class="container-fluid text-center">
         <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
           <div class="circle">
@@ -193,15 +197,36 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    
+    <div class="container-fluid text-center">
+      <div class="numbers row">
+        <div class="col-md-4 col-sm-12">
+        <div class="circle">
+          <h1>1000</h1>
+          <p>Cooks</p>
+        </div></div>
+        <div class="col-md-4 col-sm-12">
+        <div class="circle">
+          <h1>5</h1>
+          <p>Branch</p>
+        </div></div>
+        <div class="circle">
+          <h1>50+</h1>
+          <p>Dishes</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <section class="section8 container-fluid p-0">
       <div class="container text-center">
         <div class="row">
           <div class="col-md-7">
-            <h1>Shishi Kebab</h1>
-            <h6>Grilled tender chicken Shishi kebab 6x BBQ sticks per plate only 300.Rs</h6>
-            <button class="btn btn-light px-5 py-2" style="background-color: orange; border: none;">Order now</button>
+            <h1 style="color: black;">Shishi Kebab</h1>
+            <h6 style="color: black;">Grilled tender chicken Shishi kebab 6x BBQ sticks per plate only 300.Rs</h6>
+            <button class="btn btn-light px-5 py-2"  style="background-color: #22223d;color: white; border-radius: 20px; border: none;">Order now</button>
           </div>
           <div class="col-md-5 col-sm-12">
             <img src="assets/shish-kebab-2709499__340.webp">
@@ -224,7 +249,7 @@
     </section>
 
     <section class="section-6">
-      <div class="container-fluid text-center">
+      <div class="container text-center">
         <div class="row">
           <!-- <div class="col-md-5"></div> -->
           <div class="news col-md-12 col-sm-12">
