@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* HTML and BODY styling setting margin and padding to 0px to avoid unwanted space */
 html,
 body {
     width: 100%;
@@ -12,11 +13,12 @@ body {
     z-index: 10;
 }
 
-
+/* to hide the overflow contents from header and section */
 header,
 section {
     overflow-x: hidden;
 }
+
 
 header a {
     font-family: Arial, Helvetica, sans-serif;
@@ -145,18 +147,22 @@ header .row .col-md-7 {
     width: 10rem;
     height: 10rem;
     padding: 2vmin;
-    border: 2px white solid;
+    border: 5px white solid;
     margin-left: 10.2rem;
     border-radius: 500em;
 }
 
-
+.numbers .circle h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
 
 .numbers .circle p {
-    margin: 0.9em;
-    padding: 0.2vmin;
+   
+    font-size: 3em;
     color: whitesmoke;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 2em;
 
 }
 
@@ -170,13 +176,22 @@ header .row .col-md-7 {
 .row .review h1 {
     position: relative;
     font-size: 5em;
-    top: 40vmin;
+
     color: white;
+
+}
+
+.review img {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    top: 5vmin;
 }
 
 .row .review h6 {
     position: relative;
-    top: 40vmin;
+
     color: white;
 }
 
@@ -356,12 +371,13 @@ footer .col-md-2 {
         margin: 0.3em;
         padding: 0.2vmin;
         color: whitesmoke;
-        font-weight: bold;
+        font-weight: bolder;
 
     }
 
     .numbers .circle h1 {
         font-size: 2em;
+        font-weight: bolder;
     }
 
     .section-4 {

@@ -13,16 +13,19 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="./Style.css" />
   <link rel="stylesheet" href="./mobile-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <!-- body start -->
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <!-- Header section contains navbar and home page -->
   <header>
     <nav class="navbar navbar-expand-lg">
       <nav class="navbar fixed-top navbar-dark  " style="background-color: #22223d;">
         <a class="navbar-brand" href="#">
-          <i class="fa-solid fa-plate-utensils"></i>
+          <i class="fa-solid fa-utensils"></i>
           Hungry Head</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -44,14 +47,20 @@
             <li class="nav-item dropdown"><a class="dropdown-toggle" id="dom" data-toggle="dropdown"
                 style="text-decoration: none;" href="#">Domain <span class="caret"></span></a>
               <ul class="dropdown-menu" style="background-color: #22223d; padding-left: 1em; ">
-                <li><a id="dom1" style="text-decoration: none; " href="#">Grill Chicken</a></li> <br>
-                <li><a id="dom2" style="text-decoration: none;" href="#">Shishi kebab</a></li>
+                <li><a id="dom1" style="text-decoration: none; " href="#grill">Grill Chicken</a></li> <br>
+                <li><a id="dom2" style="text-decoration: none;" href="#shi">Shishi kebab</a></li>
               </ul>
             <li class="nav-item">
-              <a class="nav-link" style="color: white;" href=" #">About</a>
+              <a class="nav-link" style="color: white;" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: white; "href=" #">Contact</a>
+              <a class="nav-link" style="color: white; " href=" #contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white; " href=" #review">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white; " href=" #"> <i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
 
           </ul>
@@ -152,15 +161,14 @@
         <div class="col-md-4 col-sm-12 text-center">
           <div class="card mr-2 d-inline-block " style="background-color: transparent; border: none;">
             <div class="card-img-top">
-              <img src="assets/dish3.jpg" style="border-radius: 200px; "
-                class="img-fluid border-radius p-4" alt="">
+              <img src="assets/dish3.jpg" style="border-radius: 200px; " class="img-fluid border-radius p-4" alt="">
             </div>
             <div class="card-body">
               <h3 class="card-title">Chicken curry</h3>
               <p class="card-text">
                 chicken is stewed with an onion and tomato sauce, usually with ginger, garlic, tomato puree, chillies
                 peppers, and a variety of spices like turmeric, cumin, coriander, cinnamon, and cardamom.
-               </p>
+              </p>
               <a href="#" style="color: white;">Order now</a>
 
             </div>
@@ -172,7 +180,7 @@
     <!-- End of section-1 -->
 
     <!-- Section-2 starts here contains Todays special food -->
-    <section class="section-2 container-fluid p-0">
+    <section class="section-2 container-fluid p-0" id="grill">
       <div class="container text-center">
         <div class="row">
           <div class="col-md-5 col-sm-12">
@@ -190,11 +198,11 @@
     <!-- section-2 ends    -->
 
     <!-- Section-3 starts here this contains About section -->
-    <section class="section-3 container-fluid p-0">
+    <section class="section-3 container-fluid p-0" id="about">
       <div class="cover">
         <div class="content text-center">
           <h1 style="color: white;">About Hungry Head</h1>
-          <p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, corrupti.</p>
+          <p style="color: white;">Serving quality food since 1997</p>
         </div>
       </div>
 
@@ -227,31 +235,31 @@
         <div class="numbers row">
           <div class="col-md-4 col-sm-4">
             <div class="circle">
-              <h1>1000</h1>
-              <p>Cooks</p>
+              <h1>123</h1>
+              <p>STORE</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4">
             <div class="circle">
-              <h1>5</h1>
-              <p>Branch</p>
+              <h1>100</h1>
+              <p>MENU</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4">
             <div class="circle">
-              <h1>50+</h1>
-              <p>Dishes</p>
+              <h1>200</h1>
+              <p>CHEF</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    
+
     <!-- section-3 ends here -->
 
     <!-- section-4 starts here this section contains Todays special food details -->
-    <section class="section-4 container-fluid p-0">
+    <section class="section-4 container-fluid p-0" id="shi">
       <div class="container text-center">
         <div class="row">
           <div class="col-md-7">
@@ -270,15 +278,19 @@
     <!-- section-4 ends -->
 
     <!-- section-5 starts here this section contains reviews -->
-    <section class="section-5">
-      <div class="container-fluid text-center">
-        <div class="row">
+    <section class="section-5" id="review">
+      <div class="container text-center">
+        <div class="row ">
           <!-- <div class="col-md-5"></div> -->
           <div class="review col-md-12 col-sm-12">
-            <h1>Review</h1>
-            <h6><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatem, explicabo molestiae
-                veritatis maxime vel quibusdam ab nesciunt ad culpa repellat fugiat magni nam vitae repudiandae
-                dignissimos voluptates consectetur ducimus.</h6>
+            <img src="assets/poster img3.jpg" >
+            <h1>Deepak</h1>
+            <h6><i>
+                Excellent food. I always go for chicken boneless biryani and try different types of chicken starters
+                each time. Huge in quantity and amazing in taste. You will always find a long queue whenever you visit
+                this place..Have been visiting this place from a long time. After a long session of workout, all I can
+                think about is of their piping hot mutton biryani. The meat is always tender, nice n soft. Please ensure
+                that the quality is maintained forever. Till now it has been amazing.</h6>
             </i>
           </div>
         </div>
@@ -287,15 +299,13 @@
     <!-- section-5 ends here -->
 
     <!-- section-6 starts here this contains news letter request form -->
-    <section class="section-6">
+    <section class="section-6" id="contact">
       <div class="container text-center">
         <div class="row">
           <!-- <div class="col-md-5"></div> -->
           <div class="news col-md-12 col-sm-12">
             <h1>News Letter</h1>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatem, explicabo molestiae
-              veritatis maxime vel quibusdam ab nesciunt ad culpa repellat fugiat magni nam vitae repudiandae
-              dignissimos voluptates consectetur ducimus.</h6>
+            <h6>Join now and recive 200.Rs off- on your next purchase and get access to amazing perks</h6>
           </div>
         </div>
         <div class="row">
@@ -323,9 +333,11 @@
       <div class="row text-left">
         <div class="col-md-4">
           <h1>Follow us on</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus inventore molestias,
-            totam dolorum eaque, numquam vero illum voluptatibus corrupti, dolor aspernatur hic fugit! Dolorum totam
-            nemo aperiam dolore, eligendi aspernatur.</p>
+          <p>To get latest updates from Hungry head follow us on social media and stay connected</p>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-whatsapp-square"></i>
         </div>
         <div class="col-md-3">
           <h1>About us</h1>
