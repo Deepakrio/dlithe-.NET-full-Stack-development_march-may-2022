@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-   z-index: 10;
+    z-index: 10;
 }
 
 
@@ -48,7 +49,7 @@ header .dropdown {
 }
 
 .dropdown-toggle a:hover {
- color: white;
+    color: white;
 }
 
 header .navbar-brand a {
@@ -69,14 +70,13 @@ header .nav-link:hover {
     top: 50%;
 }
 
-#dom 
-{
-    color:white;
+#dom {
+    color: white;
 }
 
 
 
-#dom :hover{
+#dom :hover {
     color: white;
 }
 
@@ -86,7 +86,7 @@ header .row .col-md-7 {
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
     margin-left: 2em;
-    
+
 }
 
 .title p {
@@ -95,8 +95,8 @@ header .row .col-md-7 {
     color: whitesmoke;
     text-align: center;
     font-weight: bold;
-    
-   
+
+
 }
 
 .title h1 {
@@ -105,9 +105,10 @@ header .row .col-md-7 {
     padding: 0.2em 0em;
     color: whitesmoke;
     text-align: center;
- 
-   
+
+
 }
+
 .section-1 {
     background-image: url(assets/bg/main1.jpg);
     color: white;
@@ -119,7 +120,7 @@ header .row .col-md-7 {
     background-image: url(assets/bg/main3.jpg);
     height: 115vmin;
     z-index: -2;
-    
+
 
 }
 
@@ -139,7 +140,7 @@ header .row .col-md-7 {
 .numbers .circle {
     position: relative;
     top: 40vmin;
-  color: white;
+    color: white;
     text-align: center;
     width: 10rem;
     height: 10rem;
@@ -160,43 +161,43 @@ header .row .col-md-7 {
 }
 
 
-.section-5{
+.section-5 {
     position: relative;
     background-image: url(assets/bg/main5.jpg);
     height: 105vmin;
 }
 
-.row .review h1{
+.row .review h1 {
     position: relative;
     font-size: 5em;
     top: 40vmin;
     color: white;
 }
 
-.row .review h6{
+.row .review h6 {
     position: relative;
-    top: 40vmin;  
-    color: white; 
+    top: 40vmin;
+    color: white;
 }
 
-.section-6{
+.section-6 {
     position: relative;
     background-image: url(assets/bg/main6.jpg);
     height: 105vmin;
 }
 
-.row .news h1{
+.row .news h1 {
     position: relative;
     font-size: 5em;
     top: 40vmin;
 }
 
-.row .news h6{
+.row .news h6 {
     position: relative;
-    top: 40vmin;   
+    top: 40vmin;
 }
 
-.input-group{
+.input-group {
 
     position: relative;
     top: 40vmin;
@@ -205,36 +206,32 @@ header .row .col-md-7 {
 
 }
 
-footer{
+footer {
     background-image: url(assets/bg/footer.jpg);
 }
 
-footer  .col-md-3
-{
+footer .col-md-3 {
     color: whitesmoke;
 }
 
-footer  .col-md-4
-{
+footer .col-md-4 {
     color: whitesmoke;
 }
 
-footer  .col-md-2
-{
+footer .col-md-2 {
     color: whitesmoke;
 }
 
-.section-2{
-    
+.section-2 {
+
     background-image: url(assets/bg/main2.jpg);
     height: 101vmin;
-    
-
-} 
 
 
-.section-2 .col-md-5 img
-{
+}
+
+
+.section-2 .col-md-5 img {
     position: relative;
     border-radius: 60vmin;
     height: 50vmin;
@@ -243,8 +240,7 @@ footer  .col-md-2
     margin-right: 8vmin;
 }
 
-.section-2 .col-md-7 h1
-{
+.section-2 .col-md-7 h1 {
     font-size: 10vmin;
     font-weight: bold;
     padding: 0.2em 0em;
@@ -254,8 +250,7 @@ footer  .col-md-2
 
 }
 
-.section-2 .col-md-7 h6
-{
+.section-2 .col-md-7 h6 {
     padding: 1vmin;
     letter-spacing: 4px;
     color: black;
@@ -265,17 +260,16 @@ footer  .col-md-2
 }
 
 
-.section-4{
+.section-4 {
     position: relative;
     background-image: url(assets/bg/main4.jpg);
     height: 109vmin;
     overflow-y: overlay;
 
-} 
+}
 
 
-.section-4 .col-md-5 img
-{
+.section-4 .col-md-5 img {
     position: relative;
     border-radius: 60vmin;
     height: 50vmin;
@@ -284,8 +278,7 @@ footer  .col-md-2
     margin-right: 8vmin;
 }
 
-.section-4 .col-md-7 h1
-{
+.section-4 .col-md-7 h1 {
     font-size: 10vmin;
     font-weight: bold;
     padding: 0.2em 0em;
@@ -295,8 +288,7 @@ footer  .col-md-2
 
 }
 
-.section-4 .col-md-7 h6
-{
+.section-4 .col-md-7 h6 {
     padding: 1vmin;
     letter-spacing: 4px;
     color: whitesmoke;
@@ -308,8 +300,7 @@ footer  .col-md-2
 
 
 @media only screen and (max-width: 600px) {
-    .section-2 .col-md-5 img
-    {   
+    .section-2 .col-md-5 img {
         position: relative;
         border-radius: 30vmin;
         height: 50vmin;
@@ -317,25 +308,138 @@ footer  .col-md-2
         margin-top: 10vmin;
         margin-right: 3vmin;
     }
-    .section-2 .col-md-7 h1
-    {
+
+    .section-2 .col-md-7 h1 {
         font-size: 8vmin;
         font-weight: bold;
         padding: 0.2em 0em;
         color: black;
         margin-top: 0vmin;
         margin-right: 8vmin;
-    
+
     }
-    
-    .section-2 .col-md-7 h6
-    {
+
+    .section-2 .col-md-7 h6 {
         padding: 0vmin;
         letter-spacing: 0px;
         color: black;
         margin-top: 0vmin;
         margin-right: 8vmin;
-    
+
     }
 
-  }
+    .cover .content {
+        position: relative;
+        top: 3vmin;
+    }
+
+
+    .cover .content h1 {
+        font-size: 2em;
+    }
+
+    .numbers .circle {
+        position: relative;
+        top: 0vmin;
+        color: white;
+        text-align: center;
+        width: 6rem;
+        height: 6rem;
+        padding: 2vmin;
+        border: 2px white solid;
+        margin-top: 1rem;
+        margin-left: 8rem;
+        border-radius: 500em;
+    }
+
+    .numbers .circle p {
+        margin: 0.3em;
+        padding: 0.2vmin;
+        color: whitesmoke;
+        font-weight: bold;
+
+    }
+
+    .numbers .circle h1 {
+        font-size: 2em;
+    }
+
+    .section-4 {
+        position: relative;
+        background-image: url(assets/bg/main4.jpg);
+        /* height: 109vmin; */
+        width: 100%;
+        height: 100%;
+
+
+    }
+
+
+    .section-4 .col-md-5 img {
+        position: relative;
+        border-radius: 60vmin;
+        height: 50vmin;
+        width: 50vmin;
+        margin-top: 1vmin;
+        margin-right: 8vmin;
+    }
+
+    .section-4 .col-md-7 h1 {
+        font-size: 10vmin;
+        font-weight: bold;
+        padding: 0.2em 0em;
+        color: whitesmoke;
+        margin-top: 25vmin;
+        margin-left: 3vmin;
+
+    }
+
+    .section-4 .col-md-7 h6 {
+        padding: 1vmin;
+        letter-spacing: 4px;
+        color: whitesmoke;
+        margin-top: 1vmin;
+        margin-right: 8vmin;
+        margin-left: 3vmin;
+
+
+    }
+
+    #bt {
+        margin-left: 5vmin;
+    }
+
+
+    .row .review h1 {
+        position: relative;
+        font-size: 5em;
+        top: 20vmin;
+        color: white;
+    }
+
+    .row .review h6 {
+        position: relative;
+        top: 20vmin;
+        color: white;
+    }
+
+    .row .news h1 {
+        position: relative;
+        font-size: 3em;
+        top: 10vmin;
+    }
+
+    .row .news h6 {
+        position: relative;
+        top: 10vmin;
+    }
+
+    .input-group {
+
+        position: relative;
+        top: 8vmin;
+        margin: 2rem;
+        width: 90vmin;
+
+    }
+}
