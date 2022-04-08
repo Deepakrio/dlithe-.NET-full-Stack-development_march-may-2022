@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+   z-index: 10;
+}
+
 
 header,
 section {
@@ -28,10 +37,21 @@ header .nav-item:last-child {
 header .nav-item {
 
     padding: 0.2em;
-    margin: 15px;
+    margin: 2px;
 }
 
-header .navbar-brand {
+header .dropdown {
+
+    padding: 0.2em;
+    margin: 10px;
+    color: white;
+}
+
+.dropdown-toggle a:hover {
+ color: white;
+}
+
+header .navbar-brand a {
     padding-left: 4rem;
 
 }
@@ -40,31 +60,48 @@ header .nav-link:hover {
     color: orange
 }
 
-header .row .col-md-5 {
-    padding: 22vmin 1vmin;
-    padding-bottom: 35vmin;
+.wrapper {
+    text-align: center;
 }
 
-header .container .col-md-5 h6 {
+.wrapper .button {
+    position: absolute;
+    top: 50%;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    margin-left: 2em;
+    
+}
+
+.title p {
     padding: 1vmin;
     letter-spacing: 4px;
     color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    
+   
 }
 
-header .container .col-md-5 h1 {
+.title h1 {
     font-size: 10vmin;
     font-weight: bold;
     padding: 0.2em 0em;
     color: whitesmoke;
+    text-align: center;
+ 
+   
 }
-
-.section-4 {
+.section-1 {
     background-image: url(assets/bg/main1.jpg);
     color: white;
 
 }
 
-.section-2 {
+.section-3 {
     position: relative;
     background-image: url(assets/bg/main3.jpg);
     height: 115vmin;
@@ -174,7 +211,7 @@ footer  .col-md-2
     color: whitesmoke;
 }
 
-.section7{
+.section-2{
     
     background-image: url(assets/bg/main2.jpg);
     height: 101vmin;
@@ -183,17 +220,17 @@ footer  .col-md-2
 } 
 
 
-.section7 .col-md-5 img
+.section-2 .col-md-5 img
 {
     position: relative;
     border-radius: 60vmin;
     height: 50vmin;
     width: 50vmin;
-    margin-top: 12vmin;
+    margin-top: 22vmin;
     margin-right: 8vmin;
 }
 
-.section7 .col-md-7 h1
+.section-2 .col-md-7 h1
 {
     font-size: 10vmin;
     font-weight: bold;
@@ -204,7 +241,7 @@ footer  .col-md-2
 
 }
 
-.section7 .col-md-7 h6
+.section-2 .col-md-7 h6
 {
     padding: 1vmin;
     letter-spacing: 4px;
@@ -215,7 +252,7 @@ footer  .col-md-2
 }
 
 
-.section8{
+.section-4{
     position: relative;
     background-image: url(assets/bg/main4.jpg);
     height: 109vmin;
@@ -224,28 +261,28 @@ footer  .col-md-2
 } 
 
 
-.section8 .col-md-5 img
+.section-4 .col-md-5 img
 {
     position: relative;
     border-radius: 60vmin;
     height: 50vmin;
     width: 50vmin;
-    margin-top: 12vmin;
+    margin-top: 22vmin;
     margin-right: 8vmin;
 }
 
-.section8 .col-md-7 h1
+.section-4 .col-md-7 h1
 {
     font-size: 10vmin;
     font-weight: bold;
     padding: 0.2em 0em;
     color: whitesmoke;
-    margin-top: 7vmin;
+    margin-top: 30vmin;
     margin-right: 8vmin;
 
 }
 
-.section8 .col-md-7 h6
+.section-4 .col-md-7 h6
 {
     padding: 1vmin;
     letter-spacing: 4px;

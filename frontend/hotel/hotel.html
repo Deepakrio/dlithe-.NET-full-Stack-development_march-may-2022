@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Books</title>
-
+  <title>RESTURANT</title>
+<!-- CDN Links -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -14,10 +14,9 @@
   <link rel="stylesheet" href="./Style.css" />
   <link rel="stylesheet" href="./mobile-style.css">
 </head>
-<style>
-
-</style>
+<!-- body start -->
 <body>
+  <!-- Header section contains navbar and home page -->
   <header>
     <nav class="navbar navbar-expand-lg" >
       <nav class="navbar fixed-top navbar-dark  " style="background-color: #22223d;">
@@ -38,9 +37,14 @@
             <li class="nav-item">
               <a class="nav-link" style="color: white;" href="#promotion">Promotion</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link"style="color: white; href="#">Promo</a>
-            </li>
+            </li> -->
+            <li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Domain <span class="caret"></span></a>  
+              <ul class="dropdown-menu" style="background-color: #22223d; padding-left: 1em;">  
+                <li><a href="#">Grill Chicken</a></li>  
+                <li><a href="#">Shishi kebab</a></li>  
+              </ul>  
             <li class="nav-item">
               <a class="nav-link"style="color: white; href="#">About</a>
             </li>
@@ -55,23 +59,27 @@
 
     <div  container text-center" id="home">
       <div class="row">
-        <div class="col-md-5 col-sm-12">
-          <h1>Hungry Head</h1>
-          <h6>since 1997</h6>
-          <button class="btn btn-light px-5 py-2" style="background-color: orange; border: none;">Order now</button>
-
+      <div class="col-md-7  title">
+          <h1>Hungry&nbsp;Head</h1>
+          <p>Have a look at our delicious and super healthy delicacies and order online for a wonderful experience.</p>
+         <div class="wrapper">
+          <button class="btn btn-light px-5 py-2 " style=" background-color: #22223d; color: whitesmoke; border-radius: 100px; border: none; ;">Order now</button>
         </div>
-        <div class="col-md-7 col-sm-12">
+        </div>
+        <div class="col-md-5 col-sm-12">
         </div>
       </div>
     </div>
 
   </header>
+<!-- Header section end -->
 
+<!-- main section starts here -->
   <main>
-
-    <section class="section-4" id="promotion">
+<!-- Section-1 contains popular menus section and cards -->
+    <section class="section-1" id="promotion">
       <div class="container text-center">
+        <br><br><br>
         <h1 style="font-size: 5em;">Popular Menu's</h1>
         <p style="font-size: 2em;">Chicken-combo's</p>
       </div>
@@ -153,8 +161,10 @@
       </div>
 
     </section>
+<!-- End of section-1 -->
 
-    <section class="section7 container-fluid p-0">
+<!-- Section-2 starts here contains Todays special food -->
+    <section class="section-2 container-fluid p-0">
   <div class="container text-center">
     <div class="row">
       <div class="col-md-5 col-sm-12" >
@@ -167,15 +177,18 @@
       </div>
     </div>
   </div></section>
-    
+ <!-- section-2 ends    -->
 
-    <section class="section-2 container-fluid p-0">
+ <!-- Section-3 starts here this contains About section -->
+    <section class="section-3 container-fluid p-0">
       <div class="cover">
         <div class="content text-center">
           <h1 style="color: white;">Statistics</h1>
           <p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, corrupti.</p>
         </div>
       </div>
+
+    
 <!-- 
       <div class="container-fluid text-center">
         <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
@@ -219,20 +232,26 @@
       </div>
     </div>
   </section>
+  <!-- section-3 ends here -->
 
-    <section class="section8 container-fluid p-0">
+  <!-- section-4 starts here this section contains Todays special food details -->
+    <section class="section-4 container-fluid p-0">
       <div class="container text-center">
         <div class="row">
           <div class="col-md-7">
             <h1 style="color: black;">Shishi Kebab</h1>
             <h6 style="color: black;">Grilled tender chicken Shishi kebab 6x BBQ sticks per plate only 300.Rs</h6>
-            <button class="btn btn-light px-5 py-2"  style="background-color: #22223d;color: white; border-radius: 20px; border: none;">Order now</button>
+            <button class="btn btn-light px-5 py-2" style="margin-right: 3em; background-color: #22223d;color: white; border-radius: 20px; border: none;">Order now</button>
           </div>
           <div class="col-md-5 col-sm-12">
             <img src="assets/shish-kebab-2709499__340.webp">
              </div>
         </div>
-      </div></section>
+      </div>
+    </section>
+    <!-- section-4 ends -->
+
+    <!-- section-5 starts here this section contains reviews -->
     <section class="section-5">
       <div class="container-fluid text-center">
         <div class="row">
@@ -247,7 +266,9 @@
         </div>
       </div>
     </section>
+<!-- section-5 ends here -->
 
+<!-- section-6 starts here this contains news letter request form -->
     <section class="section-6">
       <div class="container text-center">
         <div class="row">
@@ -268,17 +289,15 @@
                         <div class="input-group-text">
                           <a href="#" class="text-secondary text-decoration-none">Subscribe</a></div>
                     <div class="col-md-4"></div>
-                  
-
-                 
-           
           </div>
         </div>
       </div>
     </section>
-
+<!-- Section-6 Ends here -->
   </main>
+  <!-- main contents ends here -->
 
+  <!-- footer starts here this contains contact info and other information -->
   <footer>
 
     <div class="container-fluid p-0">
@@ -315,6 +334,7 @@
     </div>
 
   </footer>
+<!-- footer section ends here -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -325,5 +345,6 @@
     crossorigin="anonymous"></script>
   <script src="./main.js"></script>
 </body>
-
+<!-- End of the body section -->
 </html>
+<!-- Here Ends our HTML contents -->
