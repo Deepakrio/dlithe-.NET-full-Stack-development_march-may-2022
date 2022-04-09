@@ -372,6 +372,7 @@ footer .col-md-2 {
         padding: 0.2vmin;
         color: whitesmoke;
         font-weight: bolder;
+        font-size: 5vmin;
 
     }
 
@@ -428,15 +429,24 @@ footer .col-md-2 {
 
     .row .review h1 {
         position: relative;
-        font-size: 5em;
-        top: 20vmin;
+        font-size: 3em;
+        top: 10vmin;
         color: white;
     }
 
     .row .review h6 {
         position: relative;
-        top: 20vmin;
+        top: 10vmin;
         color: white;
+        font-size: 0.8em;
+    }
+
+    .row .review img{
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 200px;
+        top: 5vmin;
     }
 
     .row .news h1 {
