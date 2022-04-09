@@ -173,7 +173,7 @@ header .row .col-md-7 {
 
 /* styling contents inside circle */
 .numbers .circle p {
-   
+
     font-size: 3em;
     color: whitesmoke;
     font-weight: bolder;
@@ -252,11 +252,13 @@ footer {
 footer .col-md-3 {
     color: whitesmoke;
 }
+
 /* setting text color for the contents inside the footer */
 
 footer .col-md-4 {
     color: whitesmoke;
 }
+
 /* setting text color for the contents inside the footer */
 
 footer .col-md-2 {
@@ -386,7 +388,7 @@ footer .col-md-2 {
         top: 3vmin;
     }
 
-/* adjusting font sizr for h1 inside cover */
+    /* adjusting font sizr for h1 inside cover */
     .cover .content h1 {
         font-size: 2em;
     }
@@ -415,12 +417,14 @@ footer .col-md-2 {
         font-size: 5vmin;
 
     }
-/* adjusting the numbers inside the circle */
+
+    /* adjusting the numbers inside the circle */
     .numbers .circle h1 {
         font-size: 2em;
         font-weight: bolder;
     }
-/* adjusting section-4 content image */
+
+    /* adjusting section-4 content image */
     .section-4 {
         position: relative;
         background-image: url(assets/bg/main4.jpg);
@@ -431,7 +435,7 @@ footer .col-md-2 {
 
     }
 
-/* adjusting height and width of section-4 content image */
+    /* adjusting height and width of section-4 content image */
 
     .section-4 .col-md-5 img {
         position: relative;
@@ -442,7 +446,7 @@ footer .col-md-2 {
         margin-right: 8vmin;
     }
 
-/* adjusting  heading section in section-4  */
+    /* adjusting  heading section in section-4  */
 
     .section-4 .col-md-7 h1 {
         font-size: 10vmin;
@@ -472,14 +476,15 @@ footer .col-md-2 {
         margin-left: 5vmin;
     }
 
-/* setting fontsize and top values for review heading */
+    /* setting fontsize and top values for review heading */
     .row .review h1 {
         position: relative;
         font-size: 3em;
         top: 10vmin;
         color: white;
     }
-/* setting fontsize and top values for review heading h6*/
+
+    /* setting fontsize and top values for review heading h6*/
 
     .row .review h6 {
         position: relative;
@@ -487,9 +492,10 @@ footer .col-md-2 {
         color: white;
         font-size: 0.8em;
     }
-/* setting height,width and top values for review image */
 
-    .row .review img{
+    /* setting height,width and top values for review image */
+
+    .row .review img {
         position: relative;
         height: 150px;
         width: 150px;
@@ -497,14 +503,14 @@ footer .col-md-2 {
         top: 5vmin;
     }
 
-/* adjusting the news letter heading h1 */
+    /* adjusting the news letter heading h1 */
     .row .news h1 {
         position: relative;
         font-size: 3em;
         top: 10vmin;
     }
 
-/* adjusting the news letter content h6 */
+    /* adjusting the news letter content h6 */
     .row .news h6 {
         position: relative;
         top: 10vmin;
@@ -520,8 +526,3 @@ footer .col-md-2 {
 
     }
 }
-
-
-
-
-
