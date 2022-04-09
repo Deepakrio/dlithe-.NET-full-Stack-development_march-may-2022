@@ -19,30 +19,33 @@ section {
     overflow-x: hidden;
 }
 
-
+/* Targeting anchor tag in the header section */
 header a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: whitesmoke;
 }
 
+/* header background image */
 header {
     background-image: url(assets/bg/header.jpg);
     position: relative;
     height: 101vmin;
 }
 
-
+/*padding last child for nav bar */
 header .nav-item:last-child {
     padding-right: 10.5em;
 }
 
+/* padding for the items inside nav bar */
 header .nav-item {
 
     padding: 0.2em;
     margin: 2px;
 }
 
+/* styling for dropdown menu */
 header .dropdown {
 
     padding: 0.2em;
@@ -50,40 +53,44 @@ header .dropdown {
     color: white;
 }
 
+/* hover effect for .dropdown anchor tag */
 .dropdown-toggle a:hover {
     color: white;
 }
 
+/* padding for the brand  */
 header .navbar-brand a {
     padding-left: 4rem;
 
 }
 
-header .nav-link:hover {
-    color: orange
-}
 
+/* header a:hover {
+    color: orange;
+} */
+
+/* wrapper class to make order button to allign in center */
 .wrapper {
     text-align: center;
 }
 
+/* positioning the button inside the wrapper class */
 .wrapper .button {
     position: absolute;
     top: 50%;
 }
 
+/* changing color for .dropdown from blue to white */
 #dom {
     color: white;
 }
 
-
-
+/* Adding hover effect on .dropdown */
 #dom :hover {
     color: white;
 }
 
-
-
+/* setting some padding for header contents inside col-md-7 */
 header .row .col-md-7 {
     padding: 22vmin 1vmin;
     padding-bottom: 35vmin;
@@ -91,6 +98,7 @@ header .row .col-md-7 {
 
 }
 
+/* styling the paragraph contents of title section */
 .title p {
     padding: 1vmin;
     letter-spacing: 4px;
@@ -100,6 +108,8 @@ header .row .col-md-7 {
 
 
 }
+
+/* styling the heading contents of title section */
 
 .title h1 {
     font-size: 10vmin;
@@ -111,11 +121,14 @@ header .row .col-md-7 {
 
 }
 
+/* setting background image for section-1 */
 .section-1 {
     background-image: url(assets/bg/main1.jpg);
     color: white;
 
 }
+
+/* setting background image for section-3 */
 
 .section-3 {
     position: relative;
@@ -126,19 +139,19 @@ header .row .col-md-7 {
 
 }
 
+/* positioning the contents inside the cover class */
 .cover .content {
     position: relative;
     top: 30vmin;
-    color: orange;
+    /* color: orange; */
 }
 
-
+/* adjustiing font-size for the heading inside the cover class */
 .cover .content h1 {
     font-size: 5em;
 }
 
-
-
+/* formation of a circle using border radius and positioning the same */
 .numbers .circle {
     position: relative;
     top: 40vmin;
@@ -152,27 +165,29 @@ header .row .col-md-7 {
     border-radius: 500em;
 }
 
+/* styling contents inside circle */
 .numbers .circle h1 {
     font-size: 3em;
     font-weight: bolder;
 }
 
+/* styling contents inside circle */
 .numbers .circle p {
    
     font-size: 3em;
     color: whitesmoke;
     font-weight: bolder;
     font-size: 2em;
-
 }
 
-
+/* setting background image for .section-5 */
 .section-5 {
     position: relative;
     background-image: url(assets/bg/main5.jpg);
     height: 105vmin;
 }
 
+/* styling review heading */
 .row .review h1 {
     position: relative;
     font-size: 5em;
@@ -181,6 +196,7 @@ header .row .col-md-7 {
 
 }
 
+/* styling review image making the image to look like a circle */
 .review img {
     position: relative;
     height: 300px;
@@ -189,29 +205,35 @@ header .row .col-md-7 {
     top: 5vmin;
 }
 
+/* styling review heading h6*/
+
 .row .review h6 {
     position: relative;
 
     color: white;
 }
 
+/* setting background image for section-6 */
 .section-6 {
     position: relative;
     background-image: url(assets/bg/main6.jpg);
     height: 105vmin;
 }
 
+/* styling news letter heading */
 .row .news h1 {
     position: relative;
     font-size: 5em;
     top: 40vmin;
 }
 
+/* styling news letter heading h6 */
 .row .news h6 {
     position: relative;
     top: 40vmin;
 }
 
+/* styling input group */
 .input-group {
 
     position: relative;
@@ -221,22 +243,27 @@ header .row .col-md-7 {
 
 }
 
+/* setting background image for footer */
 footer {
     background-image: url(assets/bg/footer.jpg);
 }
 
+/* setting text color for the contents inside the footer */
 footer .col-md-3 {
     color: whitesmoke;
 }
+/* setting text color for the contents inside the footer */
 
 footer .col-md-4 {
     color: whitesmoke;
 }
+/* setting text color for the contents inside the footer */
 
 footer .col-md-2 {
     color: whitesmoke;
 }
 
+/* setting backgroung image for section-2 */
 .section-2 {
 
     background-image: url(assets/bg/main2.jpg);
@@ -245,7 +272,7 @@ footer .col-md-2 {
 
 }
 
-
+/* styling image inside section-2  */
 .section-2 .col-md-5 img {
     position: relative;
     border-radius: 60vmin;
@@ -255,6 +282,7 @@ footer .col-md-2 {
     margin-right: 8vmin;
 }
 
+/* styling the text contents inside the section-2 h1 */
 .section-2 .col-md-7 h1 {
     font-size: 10vmin;
     font-weight: bold;
@@ -265,6 +293,7 @@ footer .col-md-2 {
 
 }
 
+/* styling the text contents inside section-2 h6 */
 .section-2 .col-md-7 h6 {
     padding: 1vmin;
     letter-spacing: 4px;
@@ -274,7 +303,7 @@ footer .col-md-2 {
 
 }
 
-
+/* setting background image for section-4 */
 .section-4 {
     position: relative;
     background-image: url(assets/bg/main4.jpg);
@@ -283,7 +312,7 @@ footer .col-md-2 {
 
 }
 
-
+/* positioning the section-4 col-5 image */
 .section-4 .col-md-5 img {
     position: relative;
     border-radius: 60vmin;
@@ -293,6 +322,7 @@ footer .col-md-2 {
     margin-right: 8vmin;
 }
 
+/* styling heading h1 inside section-4 */
 .section-4 .col-md-7 h1 {
     font-size: 10vmin;
     font-weight: bold;
@@ -303,6 +333,7 @@ footer .col-md-2 {
 
 }
 
+/* styling heading h6 inside section-4 */
 .section-4 .col-md-7 h6 {
     padding: 1vmin;
     letter-spacing: 4px;
@@ -312,9 +343,12 @@ footer .col-md-2 {
 
 }
 
+/* -------------------------------------media queries----------------------------------- */
 
-
+/* targeting mobile devices */
 @media only screen and (max-width: 600px) {
+
+    /* adjusting section-2 image to fit into mobile screen */
     .section-2 .col-md-5 img {
         position: relative;
         border-radius: 30vmin;
@@ -324,6 +358,7 @@ footer .col-md-2 {
         margin-right: 3vmin;
     }
 
+    /* reducing the font size and margin for h1 contents in section-2 */
     .section-2 .col-md-7 h1 {
         font-size: 8vmin;
         font-weight: bold;
@@ -334,6 +369,8 @@ footer .col-md-2 {
 
     }
 
+    /* reducing the font size and margin for h6 contents in section-2 */
+
     .section-2 .col-md-7 h6 {
         padding: 0vmin;
         letter-spacing: 0px;
@@ -343,16 +380,18 @@ footer .col-md-2 {
 
     }
 
+    /* adjusting top value for the cover content */
     .cover .content {
         position: relative;
         top: 3vmin;
     }
 
-
+/* adjusting font sizr for h1 inside cover */
     .cover .content h1 {
         font-size: 2em;
     }
 
+    /* reducing the circle height and width */
     .numbers .circle {
         position: relative;
         top: 0vmin;
@@ -367,6 +406,7 @@ footer .col-md-2 {
         border-radius: 500em;
     }
 
+    /* reducing the font size for paragraph tag inside the circles */
     .numbers .circle p {
         margin: 0.3em;
         padding: 0.2vmin;
@@ -375,12 +415,12 @@ footer .col-md-2 {
         font-size: 5vmin;
 
     }
-
+/* adjusting the numbers inside the circle */
     .numbers .circle h1 {
         font-size: 2em;
         font-weight: bolder;
     }
-
+/* adjusting section-4 content image */
     .section-4 {
         position: relative;
         background-image: url(assets/bg/main4.jpg);
@@ -391,6 +431,7 @@ footer .col-md-2 {
 
     }
 
+/* adjusting height and width of section-4 content image */
 
     .section-4 .col-md-5 img {
         position: relative;
@@ -401,6 +442,8 @@ footer .col-md-2 {
         margin-right: 8vmin;
     }
 
+/* adjusting  heading section in section-4  */
+
     .section-4 .col-md-7 h1 {
         font-size: 10vmin;
         font-weight: bold;
@@ -410,6 +453,8 @@ footer .col-md-2 {
         margin-left: 3vmin;
 
     }
+
+    /* adjusting  heading h6 section in section-4  */
 
     .section-4 .col-md-7 h6 {
         padding: 1vmin;
@@ -422,17 +467,19 @@ footer .col-md-2 {
 
     }
 
+    /* adjusting the button in .section-4 */
     #bt {
         margin-left: 5vmin;
     }
 
-
+/* setting fontsize and top values for review heading */
     .row .review h1 {
         position: relative;
         font-size: 3em;
         top: 10vmin;
         color: white;
     }
+/* setting fontsize and top values for review heading h6*/
 
     .row .review h6 {
         position: relative;
@@ -440,6 +487,7 @@ footer .col-md-2 {
         color: white;
         font-size: 0.8em;
     }
+/* setting height,width and top values for review image */
 
     .row .review img{
         position: relative;
@@ -449,17 +497,20 @@ footer .col-md-2 {
         top: 5vmin;
     }
 
+/* adjusting the news letter heading h1 */
     .row .news h1 {
         position: relative;
         font-size: 3em;
         top: 10vmin;
     }
 
+/* adjusting the news letter content h6 */
     .row .news h6 {
         position: relative;
         top: 10vmin;
     }
 
+    /* alligning the input group inside news letter section */
     .input-group {
 
         position: relative;
@@ -469,3 +520,8 @@ footer .col-md-2 {
 
     }
 }
+
+
+
+
+
