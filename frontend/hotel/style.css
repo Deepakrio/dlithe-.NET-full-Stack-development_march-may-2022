@@ -135,7 +135,7 @@ header .row .col-md-7 {
     background-image: url(assets/bg/main3.jpg);
     height: 115vmin;
     z-index: -2;
-
+ display: no;
 
 }
 
