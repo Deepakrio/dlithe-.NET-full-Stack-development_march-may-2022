@@ -1,0 +1,15 @@
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.csproj.AssemblyReference.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.GeneratedMSBuildEditorConfig.editorconfig
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.AssemblyInfoInputs.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.AssemblyInfo.cs
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.csproj.CoreCompileInputs.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\bin\Debug\net6.0\demoapp.exe
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\bin\Debug\net6.0\demoapp.deps.json
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\bin\Debug\net6.0\demoapp.runtimeconfig.json
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\bin\Debug\net6.0\demoapp.dll
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\bin\Debug\net6.0\demoapp.pdb
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.dll
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\refint\demoapp.dll
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.pdb
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\demoapp.genruntimeconfig.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\demoapp\demoapp\obj\Debug\net6.0\ref\demoapp.dll
