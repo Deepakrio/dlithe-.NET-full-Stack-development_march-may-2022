@@ -33,7 +33,7 @@ namespace Task21
                 {
                     break;
                 }
-                Console.WriteLine(i);
+                Console.Write(i+" ");
 
             }
         }
@@ -50,7 +50,7 @@ namespace Task21
                 {
                     continue;
                 }
-                Console.WriteLine(i);
+                Console.Write(i+" ");
 
             }
         }

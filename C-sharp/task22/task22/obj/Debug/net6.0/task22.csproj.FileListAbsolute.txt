@@ -1,0 +1,15 @@
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\bin\Debug\net6.0\task22.exe
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\bin\Debug\net6.0\task22.deps.json
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\bin\Debug\net6.0\task22.runtimeconfig.json
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\bin\Debug\net6.0\task22.dll
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\bin\Debug\net6.0\task22.pdb
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.csproj.AssemblyReference.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.GeneratedMSBuildEditorConfig.editorconfig
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.AssemblyInfoInputs.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.AssemblyInfo.cs
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.csproj.CoreCompileInputs.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.dll
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\refint\task22.dll
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.pdb
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\task22.genruntimeconfig.cache
+E:\dlithe .NET full Stack development_march-may-2022\C-sharp\task22\task22\obj\Debug\net6.0\ref\task22.dll
