@@ -18,7 +18,7 @@ namespace task22
             };
 
             int temp=0;
-            Console.WriteLine("Unsorted array values");
+            Console.WriteLine("Array elements");
             for(int i = 0; i < add.Length; i++)
             {
                 for(int j = 0; j < add[i].Length; j++)
