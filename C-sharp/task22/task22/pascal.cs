@@ -12,25 +12,25 @@ namespace task22
         //Main method
         public static void Main()
         {
-            //Variable Declaration
-            int i, n, j;
-
-            //Getting size of Pascal Triangle from the user
+            int n , tri = 1, space, i, j;
+            Console.WriteLine("Pascal's triangle");
             Console.WriteLine("Enter the size of Pascal triangle");
-            n = Convert.ToInt32(Console.ReadLine());    
+                n=Convert.ToInt32(Console.ReadLine());
 
-            //outer for loop 
-            for(i=0;i<n;i++)
+            for (i = 0; i < n; i++)
             {
-                //For loop for printing space
-                for (j = 1; j <= n - i; j++)
+                for (space = 1; space <= n - i; space++)
                     Console.Write(" ");
-                //This for loop prints * symbol
-                for (j = 1; j <= 2 * i - 1; j++)
-                    Console.Write("*");
+                for (j = 0; j <= i; j++)
+                {
+                    if (j == 0 || i == 0)
+                        tri = 1;
+                    else
+                        tri = tri * (i - j + 1) / j;
+                    Console.Write(tri + " ");
+                }
                 Console.WriteLine();
             }
-
         }
     }
 }

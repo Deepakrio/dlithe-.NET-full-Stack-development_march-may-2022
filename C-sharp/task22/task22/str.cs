@@ -16,7 +16,11 @@ namespace task22
             
             //String clone method 
             String str2 = (String)str1.Clone();
+            
+            //String Color Properties
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"This is to demonstrate string clone method:\t{str2}\n");
+            Console.ForegroundColor = ConsoleColor.White;
 
             //String concatination( merging of two or more string
             Console.WriteLine("This is to demonstrate string Concatination method");
@@ -24,7 +28,8 @@ namespace task22
 
             //String contains method - which checks for the occurance of sub stiong in another string or not 
             //It will return true or false value
-            Console.WriteLine("This is to demonstrate string contains method");
+            //And Demonstrated Escape Sequence Concepts too
+            Console.WriteLine("This is /\\to demonstrate string contains method");
             //Returns false because the strings doesnot match with each other
             Console.WriteLine(str1.Contains(str3));
             //Returns true because the strings will match each other
@@ -62,6 +67,8 @@ namespace task22
             String str7 = "    Dlithe Bootcamp     ";
             Console.WriteLine(" Trim method in String concept");
             Console.WriteLine(str7.Trim() + "\n");
+
+           
 
 
         }
