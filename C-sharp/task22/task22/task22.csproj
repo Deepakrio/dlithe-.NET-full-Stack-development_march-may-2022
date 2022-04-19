@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>task22.pascal</StartupObject>
+    <StartupObject>task22.Encap.encapsulation</StartupObject>
   </PropertyGroup>
 
 </Project>
